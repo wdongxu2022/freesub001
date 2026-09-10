@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - xiaohe
   type: vless
-  server: 103.85.114.144
+  server: 91.149.254.72
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 02 - xiaohe
   type: vless
-  server: 82.40.57.78
+  server: 157.180.76.49
   port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -34,8 +34,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 03 - xiaohe
   type: vless
-  server: 144.31.119.82
-  port: 2083
+  server: 151.241.234.84
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -48,8 +48,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 04 - xiaohe
   type: vless
-  server: 2.27.30.188
-  port: 443
+  server: 153.52.117.170
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -62,7 +62,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 05 - xiaohe
   type: vless
-  server: 172.64.147.104
+  server: 172.64.53.215
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -76,7 +76,7 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇫🇮 FI 06 - xiaohe
   type: vless
-  server: 144.31.232.93
+  server: 77.42.82.1
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -90,21 +90,21 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 07 - xiaohe
   type: vless
-  server: 104.19.215.97
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 192.124.181.74
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: tight-flower-bc60.30044201-759.workers.dev
   network: ws
   ws-opts:
-    path: ?ed=2560
+    path: /?ed=2048
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 08 - xiaohe
   type: vless
-  server: 77.110.120.16
+  server: 185.239.141.178
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -118,8 +118,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 09 - xiaohe
   type: vless
-  server: 5.61.90.135
-  port: 443
+  server: 89.125.122.64
+  port: 2053
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -132,7 +132,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 10 - xiaohe
   type: vless
-  server: 177.3.214.150
+  server: 185.58.207.126
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -146,7 +146,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 11 - xiaohe
   type: vless
-  server: 91.184.243.221
+  server: 135.181.204.201
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -160,35 +160,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 12 - xiaohe
   type: vless
-  server: 172.64.52.30
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: ?ed=2560
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇫🇮 FI 13 - xiaohe
-  type: vless
-  server: 109.172.54.225
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇫🇮 FI 14 - xiaohe
-  type: vless
-  server: 77.42.39.231
+  server: 65.109.177.57
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -200,7 +172,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇫🇮 FI 15 - xiaohe
+- name: 🇫🇮 FI 13 - xiaohe
   type: vless
   server: 193.124.36.16
   port: 443
@@ -214,9 +186,36 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇫🇮 FI 14 - xiaohe
+  type: vless
+  server: 65.108.201.223
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇫🇮 FI 15 - xiaohe
+  type: vless
+  server: italic.dearhossein-taktaz.ir
+  port: 8080
+  uuid: 83fd52e3-c8d4-4ba6-abf4-445b99fec0f0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: italic.dearhossein-taktaz.ir
 - name: 🇫🇮 FI 16 - xiaohe
   type: vless
-  server: 62.238.24.80
+  server: 157.180.73.43
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -230,7 +229,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 17 - xiaohe
   type: vless
-  server: 204.168.220.16
+  server: 65.109.241.131
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -244,7 +243,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 18 - xiaohe
   type: vless
-  server: 31.76.103.14
+  server: 78.17.39.165
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -258,8 +257,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 19 - xiaohe
   type: vless
-  server: 150.241.88.243
-  port: 443
+  server: 176.124.206.42
+  port: 2087
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -272,8 +271,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 20 - xiaohe
   type: vless
-  server: 65.21.182.84
-  port: 443
+  server: 193.109.84.103
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -286,21 +285,21 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 21 - xiaohe
   type: vless
-  server: 172.64.144.66
+  server: 93.152.207.236
   port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: tight-flower-bc60.30044201-759.workers.dev
   network: ws
   ws-opts:
-    path: ?ed=2560
+    path: /?ed=2048
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 22 - xiaohe
   type: vless
-  server: 195.26.230.12
+  server: 193.47.60.233
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -314,8 +313,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 23 - xiaohe
   type: vless
-  server: 144.31.232.73
-  port: 2053
+  server: 65.109.218.24
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -328,8 +327,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 24 - xiaohe
   type: vless
-  server: 62.238.3.55
-  port: 443
+  server: 138.124.9.49
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -342,7 +341,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 25 - xiaohe
   type: vless
-  server: 2.27.122.200
+  server: 103.71.22.133
   port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -356,8 +355,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 26 - xiaohe
   type: vless
-  server: 62.238.35.47
-  port: 443
+  server: 109.107.155.76
+  port: 2053
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -370,20 +369,21 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 27 - xiaohe
   type: vless
-  server: 65.109.185.234
-  port: 8080
-  uuid: 83fd52e3-c8d4-4ba6-abf4-445b99fec0f0
+  server: 204.168.135.65
+  port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: italic.dearhossein-taktaz.ir
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 28 - xiaohe
   type: vless
-  server: 144.31.133.243
+  server: 65.21.63.225
   port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -397,7 +397,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 29 - xiaohe
   type: vless
-  server: 103.85.115.229
+  server: 62.238.35.47
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -411,8 +411,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 30 - xiaohe
   type: vless
-  server: 46.243.4.193
-  port: 443
+  server: 95.216.168.240
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -425,8 +425,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 31 - xiaohe
   type: vless
-  server: 193.23.201.56
-  port: 443
+  server: 81.27.97.222
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -439,7 +439,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 32 - xiaohe
   type: vless
-  server: 94.159.112.28
+  server: 62.238.27.47
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -453,22 +453,22 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 33 - xiaohe
   type: vless
-  server: 172.64.145.93
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 77.42.44.22
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: tight-flower-bc60.30044201-759.workers.dev
   network: ws
   ws-opts:
-    path: ?ed=2560
+    path: /?ed=2048
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 34 - xiaohe
   type: vless
-  server: 65.21.253.224
-  port: 2087
+  server: 138.124.80.13
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -481,21 +481,21 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 35 - xiaohe
   type: vless
-  server: 2.27.50.174
+  server: 172.67.217.240
   port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /?ed=2560
     headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
 - name: 🇫🇮 FI 36 - xiaohe
   type: vless
-  server: 185.200.190.149
+  server: 194.76.172.160
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -509,35 +509,35 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 37 - xiaohe
   type: vless
-  server: 144.31.7.200
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: 172.64.145.202
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: ?ed=2560
     headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇫🇮 FI 38 - xiaohe
   type: vless
-  server: 178.17.61.227
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: 172.64.147.104
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: ?ed=2560
     headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇫🇮 FI 39 - xiaohe
   type: vless
-  server: 46.62.166.149
+  server: 185.106.94.143
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -551,8 +551,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 40 - xiaohe
   type: vless
-  server: 144.31.132.149
-  port: 2053
+  server: 2.26.147.71
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -565,20 +565,22 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 41 - xiaohe
   type: vless
-  server: 185.79.138.71
-  port: 448
-  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
+  server: 89.125.210.106
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
-  servername: www.samsung.com
-  client-fingerprint: chrome
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 42 - xiaohe
   type: vless
-  server: 157.180.82.236
-  port: 443
+  server: 31.76.103.69
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -591,7 +593,21 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇫🇮 FI 43 - xiaohe
   type: vless
-  server: 172.64.53.140
+  server: 150.241.86.74
+  port: 2053
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇫🇮 FI 44 - xiaohe
+  type: vless
+  server: 172.64.52.173
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -603,9 +619,50 @@ proxies:
     path: ?ed=2560
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇫🇮 FI 44 - xiaohe
+- name: 🇫🇮 FI 45 - xiaohe
   type: vless
-  server: 195.66.87.202
+  server: 204.168.253.5
+  port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇫🇮 FI 46 - xiaohe
+  type: vless
+  server: italic.dearhossein-taktaz.ir
+  port: 8080
+  uuid: 83fd52e3-c8d4-4ba6-abf4-445b99fec0f0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: italic.dearhossein-taktaz.ir
+- name: 🇫🇮 FI 47 - xiaohe
+  type: vless
+  server: 172.64.52.60
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇫🇮 FI 48 - xiaohe
+  type: vless
+  server: 95.217.185.57
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -617,24 +674,66 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇫🇮 FI 45 - xiaohe
+- name: 🇫🇮 FI 49 - xiaohe
   type: vless
-  server: 172.64.149.209
+  server: 144.31.185.206
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇫🇮 FI 50 - xiaohe
+  type: vless
+  server: 62.238.21.163
+  port: 2096
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇫🇮 FI 51 - xiaohe
+  type: vless
+  server: 172.64.52.97
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: ?ed=2560
     headers:
-      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-- name: 🇫🇮 FI 46 - xiaohe
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇫🇮 FI 52 - xiaohe
   type: vless
-  server: 135.181.24.140
-  port: 8443
+  server: 78.17.15.130
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇫🇮 FI 53 - xiaohe
+  type: vless
+  server: 89.167.83.117
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -696,6 +795,13 @@ proxy-groups:
   - 🇫🇮 FI 44 - xiaohe
   - 🇫🇮 FI 45 - xiaohe
   - 🇫🇮 FI 46 - xiaohe
+  - 🇫🇮 FI 47 - xiaohe
+  - 🇫🇮 FI 48 - xiaohe
+  - 🇫🇮 FI 49 - xiaohe
+  - 🇫🇮 FI 50 - xiaohe
+  - 🇫🇮 FI 51 - xiaohe
+  - 🇫🇮 FI 52 - xiaohe
+  - 🇫🇮 FI 53 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -747,5 +853,12 @@ proxy-groups:
   - 🇫🇮 FI 44 - xiaohe
   - 🇫🇮 FI 45 - xiaohe
   - 🇫🇮 FI 46 - xiaohe
+  - 🇫🇮 FI 47 - xiaohe
+  - 🇫🇮 FI 48 - xiaohe
+  - 🇫🇮 FI 49 - xiaohe
+  - 🇫🇮 FI 50 - xiaohe
+  - 🇫🇮 FI 51 - xiaohe
+  - 🇫🇮 FI 52 - xiaohe
+  - 🇫🇮 FI 53 - xiaohe
 rules:
 - MATCH,PROXIES
