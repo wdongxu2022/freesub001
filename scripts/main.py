@@ -29,6 +29,7 @@ SOURCE_URLS = [
     "https://raw.githubusercontent.com/freefq/free/master/v2",
     "https://open.heleimail.workers.dev/",
     "https://www.ermao.net/sub/v2ray/ermao.net",
+    "https://tight-flower-bc60.30044201-759.workers.dev/5d8782e4-cbf3-4b3f-936b-a83ffc01d430/sub?name=CFBox",
 ]
 
 OUTPUT_DIR = "output"
