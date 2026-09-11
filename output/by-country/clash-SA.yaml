@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇸🇦 SA 01 - xiaohe
   type: vless
-  server: 213.165.58.120
-  port: 443
+  server: 213.165.59.126
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -18,17 +18,31 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇦 SA 02 - xiaohe
+  type: vless
+  server: 81.208.170.142
+  port: 1500
+  uuid: e332f028-d343-5b44-8016-b3130f39e133
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE
+  servername: www.ebay.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇸🇦 SA 01 - xiaohe
+  - 🇸🇦 SA 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇸🇦 SA 01 - xiaohe
+  - 🇸🇦 SA 02 - xiaohe
 rules:
 - MATCH,PROXIES

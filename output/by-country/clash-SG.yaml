@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇸🇬 新加坡 (Singapore) 01 - xiaohe
   type: vless
-  server: 152.42.174.66
+  server: 152.42.231.213
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -19,23 +19,19 @@ proxies:
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 02 - xiaohe
-  type: vless
-  server: 109.176.19.244
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 03 - xiaohe
   type: vless
-  server: 168.144.97.78
-  port: 443
+  server: 178.128.92.205
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -48,7 +44,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 04 - xiaohe
   type: vless
-  server: 134.209.101.154
+  server: 168.138.176.180
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -61,23 +57,19 @@ proxies:
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 05 - xiaohe
-  type: vless
-  server: 138.2.95.33
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 06 - xiaohe
   type: vless
-  server: 68.183.180.221
-  port: 443
+  server: 89.34.227.105
+  port: 2053
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -89,18 +81,22 @@ proxies:
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 07 - xiaohe
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 139.180.152.37
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 08 - xiaohe
   type: vless
-  server: 52.77.54.144
+  server: 54.254.247.156
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -114,7 +110,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 09 - xiaohe
   type: vless
-  server: 134.209.101.154
+  server: 68.183.186.117
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -128,7 +124,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 10 - xiaohe
   type: vless
-  server: 206.189.151.133
+  server: 167.172.68.31
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -142,7 +138,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 11 - xiaohe
   type: vless
-  server: 159.223.88.166
+  server: 77.93.90.177
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -156,7 +152,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 12 - xiaohe
   type: vless
-  server: 159.65.15.18
+  server: 165.245.182.116
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -170,7 +166,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 13 - xiaohe
   type: vless
-  server: 143.198.90.188
+  server: 139.180.216.198
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -184,7 +180,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 14 - xiaohe
   type: vless
-  server: 139.162.17.105
+  server: 167.71.194.170
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -198,7 +194,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 15 - xiaohe
   type: vless
-  server: 52.77.54.144
+  server: 168.144.97.250
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -212,7 +208,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 16 - xiaohe
   type: vless
-  server: 174.138.17.183
+  server: 128.199.119.5
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -226,7 +222,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 17 - xiaohe
   type: vless
-  server: 152.42.231.213
+  server: 52.221.158.37
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -239,8 +235,21 @@ proxies:
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 18 - xiaohe
+  type: vless
+  server: 172.64.52.6
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇸🇬 新加坡 (Singapore) 19 - xiaohe
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -248,23 +257,9 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 19 - xiaohe
-  type: vless
-  server: 168.138.165.174
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 20 - xiaohe
   type: vless
-  server: 152.42.229.215
+  server: 139.59.250.212
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -278,7 +273,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 21 - xiaohe
   type: vless
-  server: 207.148.123.149
+  server: 172.237.81.164
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -292,7 +287,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 22 - xiaohe
   type: vless
-  server: 143.198.90.188
+  server: 193.239.167.110
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -306,7 +301,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 23 - xiaohe
   type: vless
-  server: 157.230.243.63
+  server: 50.7.21.117
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -319,42 +314,8 @@ proxies:
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 24 - xiaohe
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 25 - xiaohe
   type: vless
-  server: 5.223.70.20
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 26 - xiaohe
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 27 - xiaohe
-  type: vless
-  server: 152.42.232.186
+  server: 157.230.248.87
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -366,9 +327,51 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 25 - xiaohe
+  type: vless
+  server: 168.144.33.100
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 26 - xiaohe
+  type: vless
+  server: 152.42.212.65
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 27 - xiaohe
+  type: vless
+  server: 91.193.58.15
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: free-server.techsonic.dev
+  network: ws
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
 - name: 🇸🇬 新加坡 (Singapore) 28 - xiaohe
   type: vless
-  server: 129.212.239.183
+  server: 195.85.19.194
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -382,7 +385,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 29 - xiaohe
   type: vless
-  server: 165.22.99.110
+  server: 157.230.244.86
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -396,21 +399,21 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 30 - xiaohe
   type: vless
-  server: 104.17.71.206
+  server: 178.128.92.205
   port: 8443
-  uuid: 542fd687-5160-4f80-9223-56678567dd29
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 8.sahanwickramasinghe.me
+  servername: tight-flower-bc60.30044201-759.workers.dev
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: 8.sahanwickramasinghe.me
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 31 - xiaohe
   type: vless
-  server: 165.245.176.192
+  server: 161.118.235.148
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -424,7 +427,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 32 - xiaohe
   type: vless
-  server: 160.187.141.61
+  server: 168.144.240.183
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -438,20 +441,22 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 33 - xiaohe
   type: vless
-  server: 13.229.137.254
-  port: 8686
-  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  server: 8.222.193.153
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
-  servername: www.apple.com
-  client-fingerprint: chrome
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 34 - xiaohe
   type: vless
-  server: 185.229.222.122
-  port: 443
+  server: 89.34.227.105
+  port: 2053
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -464,7 +469,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 35 - xiaohe
   type: vless
-  server: 47.79.255.2
+  server: 124.243.136.65
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -478,7 +483,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 36 - xiaohe
   type: vless
-  server: 139.59.250.249
+  server: 68.183.227.216
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -492,7 +497,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 37 - xiaohe
   type: vless
-  server: 52.221.158.37
+  server: 168.144.33.100
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -506,7 +511,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 38 - xiaohe
   type: vless
-  server: 68.183.186.105
+  server: 154.26.128.147
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -520,7 +525,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 39 - xiaohe
   type: vless
-  server: 152.42.174.66
+  server: 139.180.152.37
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -534,7 +539,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 40 - xiaohe
   type: vless
-  server: 103.195.191.70
+  server: 152.42.212.65
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -548,7 +553,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 41 - xiaohe
   type: vless
-  server: 116.251.217.107
+  server: 5.34.177.86
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -562,8 +567,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 42 - xiaohe
   type: vless
-  server: 109.123.232.71
-  port: 8443
+  server: 149.28.153.207
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -576,7 +581,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 43 - xiaohe
   type: vless
-  server: 207.148.71.119
+  server: 165.245.182.116
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -590,7 +595,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 44 - xiaohe
   type: vless
-  server: 206.189.95.91
+  server: 165.232.165.200
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -604,7 +609,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 45 - xiaohe
   type: vless
-  server: 178.128.86.3
+  server: 195.85.19.136
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -617,17 +622,18 @@ proxies:
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 46 - xiaohe
-  type: vless
-  server: 8.sahanwickramasinghe.me
-  port: 443
-  uuid: 54a9c202-cfe9-4bb8-826c-653a52a96c6d
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: zoom.us
 - name: 🇸🇬 新加坡 (Singapore) 47 - xiaohe
   type: vless
-  server: 45.32.127.54
+  server: 165.22.104.36
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -640,22 +646,18 @@ proxies:
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 48 - xiaohe
-  type: vless
-  server: 167.99.77.156
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 49 - xiaohe
   type: vless
-  server: 5.223.93.126
+  server: 124.243.136.65
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -669,7 +671,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 50 - xiaohe
   type: vless
-  server: 157.230.248.87
+  server: 143.198.209.123
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -683,7 +685,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 51 - xiaohe
   type: vless
-  server: 193.239.167.110
+  server: 138.2.87.237
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -697,21 +699,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 52 - xiaohe
   type: vless
-  server: 132.243.238.192
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 53 - xiaohe
-  type: vless
-  server: 203.55.176.47
+  server: 128.199.82.20
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -723,9 +711,16 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 53 - xiaohe
+  type: ss
+  server: 176.97.64.144
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: TFElG2FVqyqG
+  udp: true
 - name: 🇸🇬 新加坡 (Singapore) 54 - xiaohe
   type: vless
-  server: 159.65.143.223
+  server: 89.28.239.134
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -738,18 +733,15 @@ proxies:
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 55 - xiaohe
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: ss
+  server: 176.97.64.144
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: TFElG2FVqyqG
   udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 56 - xiaohe
   type: vless
-  server: 172.104.59.187
+  server: 167.172.68.31
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -762,22 +754,18 @@ proxies:
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 57 - xiaohe
-  type: vless
-  server: 165.245.176.192
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 58 - xiaohe
   type: vless
-  server: 139.59.231.131
+  server: 13.212.126.228
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -791,7 +779,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 59 - xiaohe
   type: vless
-  server: 109.176.19.244
+  server: 23.111.15.141
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -805,7 +793,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 60 - xiaohe
   type: vless
-  server: 159.89.200.153
+  server: 146.190.95.17
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -819,21 +807,20 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 61 - xiaohe
   type: vless
-  server: 168.144.97.78
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /fp
     headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬 新加坡 (Singapore) 62 - xiaohe
   type: vless
-  server: 45.130.164.109
+  server: 43.168.16.112
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -847,7 +834,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 63 - xiaohe
   type: vless
-  server: 157.245.148.160
+  server: 66.42.61.215
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -861,7 +848,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 64 - xiaohe
   type: vless
-  server: 168.144.128.35
+  server: 185.115.207.190
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -875,7 +862,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 65 - xiaohe
   type: vless
-  server: 52.221.158.37
+  server: 217.15.166.78
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -889,22 +876,21 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 66 - xiaohe
   type: vless
-  server: 162.128.72.114
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: 108.162.198.178
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇸🇬 新加坡 (Singapore) 67 - xiaohe
   type: vless
-  server: 109.123.232.71
-  port: 8443
+  server: 13.213.65.117
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -917,7 +903,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 68 - xiaohe
   type: vless
-  server: 178.128.95.74
+  server: 168.144.240.183
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -931,21 +917,21 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 69 - xiaohe
   type: vless
-  server: 134.209.104.130
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: 91.193.58.31
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
+  servername: free-server.techsonic.dev
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /free-server.techsonic.dev
     headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+      Host: free-server.techsonic.dev
 - name: 🇸🇬 新加坡 (Singapore) 70 - xiaohe
   type: vless
-  server: 159.65.15.18
+  server: 43.156.142.191
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -958,22 +944,15 @@ proxies:
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 71 - xiaohe
-  type: vless
-  server: 178.128.56.59
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  type: ss
+  server: 167.150.100.115
+  port: 27755
+  cipher: 2022-blake3-aes-256-gcm
+  password: fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0=
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 72 - xiaohe
   type: vless
-  server: 165.245.182.116
+  server: 139.59.114.19
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -987,7 +966,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 73 - xiaohe
   type: vless
-  server: 68.183.225.227
+  server: 51.79.177.53
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1001,7 +980,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 74 - xiaohe
   type: vless
-  server: 167.172.67.51
+  server: 13.212.126.228
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1015,7 +994,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 75 - xiaohe
   type: vless
-  server: 89.28.239.163
+  server: 77.93.90.231
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1029,7 +1008,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 76 - xiaohe
   type: vless
-  server: 206.189.43.222
+  server: 45.32.123.157
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1043,8 +1022,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 77 - xiaohe
   type: vless
-  server: 167.99.71.38
-  port: 443
+  server: 161.118.198.6
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -1057,7 +1036,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 78 - xiaohe
   type: vless
-  server: 138.2.95.33
+  server: 43.163.113.253
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1071,7 +1050,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 79 - xiaohe
   type: vless
-  server: 103.3.61.43
+  server: 68.183.227.216
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1085,7 +1064,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 80 - xiaohe
   type: vless
-  server: 217.216.36.66
+  server: 172.237.81.164
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1099,7 +1078,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 81 - xiaohe
   type: vless
-  server: 160.187.141.61
+  server: 139.180.220.87
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1113,7 +1092,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 82 - xiaohe
   type: vless
-  server: 134.209.104.130
+  server: 209.97.163.209
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1126,36 +1105,28 @@ proxies:
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 83 - xiaohe
-  type: vless
-  server: 157.230.39.201
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 84 - xiaohe
-  type: vless
-  server: 193.239.167.110
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 85 - xiaohe
   type: vless
-  server: 43.160.237.18
+  server: 23.111.15.141
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1169,7 +1140,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 86 - xiaohe
   type: vless
-  server: 129.212.229.72
+  server: 162.4.173.241
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1183,7 +1154,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 87 - xiaohe
   type: vless
-  server: 103.3.61.43
+  server: 206.189.90.44
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1197,7 +1168,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 88 - xiaohe
   type: vless
-  server: 159.65.1.74
+  server: 168.144.102.226
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1211,8 +1182,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 89 - xiaohe
   type: vless
-  server: 15.235.212.159
-  port: 8443
+  server: 185.115.207.141
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -1225,7 +1196,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 90 - xiaohe
   type: vless
-  server: 45.32.127.54
+  server: 89.28.239.171
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1239,7 +1210,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 91 - xiaohe
   type: vless
-  server: 96.9.210.191
+  server: 152.42.161.156
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1253,20 +1224,21 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 92 - xiaohe
   type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: 157.245.198.117
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
   network: ws
   ws-opts:
-    path: /fp
+    path: /?ed=2048
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 93 - xiaohe
   type: vmess
-  server: 149.88.23.202
+  server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -1276,8 +1248,8 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 94 - xiaohe
   type: vless
-  server: 5.253.36.155
-  port: 8443
+  server: 165.245.178.114
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -1290,8 +1262,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 95 - xiaohe
   type: vless
-  server: 165.22.106.244
-  port: 443
+  server: 5.34.176.72
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -1304,8 +1276,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 96 - xiaohe
   type: vless
-  server: 207.148.127.157
-  port: 8443
+  server: 138.2.87.237
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -1318,7 +1290,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 97 - xiaohe
   type: vless
-  server: 206.189.43.222
+  server: 152.42.235.119
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1332,7 +1304,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 98 - xiaohe
   type: vless
-  server: 167.99.77.156
+  server: 45.76.176.85
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1346,7 +1318,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 99 - xiaohe
   type: vless
-  server: 89.28.239.67
+  server: 157.230.248.87
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1360,7 +1332,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 100 - xiaohe
   type: vless
-  server: 168.144.128.35
+  server: 161.118.210.121
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1374,7 +1346,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 101 - xiaohe
   type: vless
-  server: 159.89.200.153
+  server: 45.32.121.27
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1387,18 +1359,22 @@ proxies:
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 102 - xiaohe
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 152.42.231.213
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 103 - xiaohe
   type: vless
-  server: 13.212.126.228
+  server: 172.236.140.241
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1412,7 +1388,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 104 - xiaohe
   type: vless
-  server: 116.251.217.107
+  server: 157.230.243.63
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1426,21 +1402,21 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 105 - xiaohe
   type: vless
-  server: 54.169.57.101
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: 91.193.58.45
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
+  servername: free-server.techsonic.dev
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /free-server.techsonic.dev
     headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+      Host: free-server.techsonic.dev
 - name: 🇸🇬 新加坡 (Singapore) 106 - xiaohe
   type: vless
-  server: 43.160.241.223
+  server: 47.131.189.221
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1454,7 +1430,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 107 - xiaohe
   type: vless
-  server: 68.183.227.216
+  server: 174.138.17.183
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1468,7 +1444,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 108 - xiaohe
   type: vless
-  server: 152.42.229.215
+  server: 5.34.177.37
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1482,7 +1458,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 109 - xiaohe
   type: vless
-  server: 143.198.203.199
+  server: 168.144.102.226
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1496,7 +1472,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 110 - xiaohe
   type: vless
-  server: 206.189.90.44
+  server: 128.199.119.5
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1510,7 +1486,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 111 - xiaohe
   type: vless
-  server: 159.89.199.63
+  server: 152.42.232.186
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1524,8 +1500,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 112 - xiaohe
   type: vless
-  server: 139.99.91.38
-  port: 8443
+  server: 139.180.220.7
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -1537,37 +1513,26 @@ proxies:
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 113 - xiaohe
-  type: vless
-  server: 178.128.86.3
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  type: ss
+  server: 167.150.100.115
+  port: 27755
+  cipher: 2022-blake3-aes-256-gcm
+  password: fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0=
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 114 - xiaohe
-  type: vless
-  server: 152.42.246.148
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 115 - xiaohe
   type: vless
-  server: 206.189.34.99
-  port: 2053
+  server: 143.198.209.123
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -1579,641 +1544,6 @@ proxies:
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 116 - xiaohe
-  type: vless
-  server: 139.59.231.131
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 117 - xiaohe
-  type: vless
-  server: 45.76.189.166
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 118 - xiaohe
-  type: vless
-  server: 89.34.227.245
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 119 - xiaohe
-  type: vless
-  server: 138.2.87.237
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 120 - xiaohe
-  type: vless
-  server: 54.254.247.156
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 121 - xiaohe
-  type: vless
-  server: 159.89.203.141
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 122 - xiaohe
-  type: vless
-  server: 43.160.241.223
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 123 - xiaohe
-  type: vless
-  server: 168.138.165.174
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 124 - xiaohe
-  type: vless
-  server: 68.183.186.105
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 125 - xiaohe
-  type: vless
-  server: 152.42.198.52
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 126 - xiaohe
-  type: vless
-  server: 159.89.199.63
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 127 - xiaohe
-  type: vless
-  server: 68.183.225.227
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 128 - xiaohe
-  type: vless
-  server: 142.91.102.35
-  port: 443
-  uuid: 54a9c202-cfe9-4bb8-826c-653a52a96c6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: www.tiktok.com
-- name: 🇸🇬 新加坡 (Singapore) 129 - xiaohe
-  type: vless
-  server: 129.212.229.72
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 130 - xiaohe
-  type: vless
-  server: 157.230.248.87
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 131 - xiaohe
-  type: vless
-  server: 5.223.70.20
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 132 - xiaohe
-  type: vless
-  server: 149.118.55.215
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 133 - xiaohe
-  type: vless
-  server: 54.169.146.255
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 134 - xiaohe
-  type: vless
-  server: 165.245.182.116
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 135 - xiaohe
-  type: vless
-  server: 43.163.113.253
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 136 - xiaohe
-  type: vless
-  server: 207.148.123.149
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 137 - xiaohe
-  type: vless
-  server: 68.183.180.221
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 138 - xiaohe
-  type: vless
-  server: 152.42.246.237
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 139 - xiaohe
-  type: vless
-  server: 103.25.202.25
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 140 - xiaohe
-  type: vless
-  server: 54.169.146.255
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 141 - xiaohe
-  type: vless
-  server: 43.163.113.253
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 142 - xiaohe
-  type: vless
-  server: 206.189.151.133
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 143 - xiaohe
-  type: vless
-  server: 43.172.182.147
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 144 - xiaohe
-  type: vless
-  server: 143.198.203.199
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 145 - xiaohe
-  type: vless
-  server: 206.189.34.99
-  port: 2053
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 146 - xiaohe
-  type: vless
-  server: 43.172.182.147
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 147 - xiaohe
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 148 - xiaohe
-  type: vless
-  server: 146.190.95.17
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 149 - xiaohe
-  type: vless
-  server: 43.160.237.18
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 150 - xiaohe
-  type: vless
-  server: 178.128.56.59
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 151 - xiaohe
-  type: vless
-  server: 47.79.255.2
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 152 - xiaohe
-  type: vless
-  server: 45.76.189.166
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 153 - xiaohe
-  type: vless
-  server: 143.198.80.220
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 154 - xiaohe
-  type: vless
-  server: 89.34.227.245
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 155 - xiaohe
-  type: vless
-  server: 89.28.239.67
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 156 - xiaohe
-  type: vless
-  server: 146.190.95.17
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 157 - xiaohe
-  type: vless
-  server: 167.172.67.51
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 158 - xiaohe
-  type: vless
-  server: 206.189.90.44
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 159 - xiaohe
-  type: vless
-  server: 83.147.234.163
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 160 - xiaohe
-  type: vless
-  server: 68.183.227.216
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 161 - xiaohe
-  type: vless
-  server: 206.189.95.91
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 162 - xiaohe
   type: vless
   server: 152.42.232.186
   port: 443
@@ -2227,19 +1557,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 163 - xiaohe
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 164 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 117 - xiaohe
   type: vless
-  server: 157.245.144.174
+  server: 217.15.166.78
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -2251,9 +1571,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 165 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 118 - xiaohe
   type: vless
-  server: 157.230.39.201
+  server: 5.34.176.72
   port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -2265,23 +1585,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 166 - xiaohe
-  type: vless
-  server: 129.212.237.187
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 167 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 119 - xiaohe
   type: vmess
-  server: 149.88.23.202
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -2289,9 +1595,9 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 168 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 120 - xiaohe
   type: vless
-  server: 143.198.80.220
+  server: 64.56.71.152
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -2303,9 +1609,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 169 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 121 - xiaohe
   type: vless
-  server: 83.147.234.163
+  server: 209.97.165.213
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -2317,9 +1623,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 170 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 122 - xiaohe
   type: vless
-  server: 128.199.119.5
+  server: 50.7.21.117
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -2331,9 +1637,23 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 171 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 123 - xiaohe
   type: vless
-  server: 159.223.88.166
+  server: 91.193.58.57
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: free-server.techsonic.dev
+  network: ws
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
+- name: 🇸🇬 新加坡 (Singapore) 124 - xiaohe
+  type: vless
+  server: 89.28.239.134
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -2345,9 +1665,19 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 172 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 125 - xiaohe
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 126 - xiaohe
   type: vless
-  server: 203.55.176.47
+  server: 162.4.173.241
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -2359,32 +1689,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 173 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 127 - xiaohe
   type: vless
-  server: 54.169.57.101
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 174 - xiaohe
-  type: vless
-  server: 142.91.102.35
-  port: 443
-  uuid: 54a9c202-cfe9-4bb8-826c-653a52a96c6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 8.sahanwickramasinghe.me
-- name: 🇸🇬 新加坡 (Singapore) 175 - xiaohe
-  type: vless
-  server: 103.195.191.70
+  server: 139.162.20.206
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -2396,9 +1703,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 176 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 128 - xiaohe
   type: vless
-  server: 157.245.144.174
+  server: 194.87.10.77
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -2410,9 +1717,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 177 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 129 - xiaohe
   type: vless
-  server: 13.212.126.228
+  server: 157.245.198.117
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -2424,7 +1731,171 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 178 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 130 - xiaohe
+  type: vless
+  server: 165.22.104.36
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 131 - xiaohe
+  type: vless
+  server: 18.139.30.198
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 132 - xiaohe
+  type: vless
+  server: 91.193.58.218
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: free-server.techsonic.dev
+  network: ws
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
+- name: 🇸🇬 新加坡 (Singapore) 133 - xiaohe
+  type: vless
+  server: 172.236.130.18
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 134 - xiaohe
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 135 - xiaohe
+  type: vless
+  server: 209.97.165.213
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 136 - xiaohe
+  type: vless
+  server: 45.76.189.166
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 137 - xiaohe
+  type: vless
+  server: 139.59.250.212
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 138 - xiaohe
+  type: vless
+  server: 64.56.71.152
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 139 - xiaohe
+  type: vless
+  server: 167.99.71.38
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 140 - xiaohe
+  type: vless
+  server: 104.248.158.149
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 141 - xiaohe
+  type: vless
+  server: 91.193.58.61
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: free-server.techsonic.dev
+  network: ws
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
+- name: 🇸🇬 新加坡 (Singapore) 142 - xiaohe
   type: vmess
   server: ww11.levikogjgfdd.ir
   port: 18000
@@ -2434,9 +1905,9 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 179 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 143 - xiaohe
   type: vless
-  server: 138.2.87.237
+  server: 139.180.220.87
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -2448,10 +1919,10 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 180 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 144 - xiaohe
   type: vless
-  server: 207.148.127.157
-  port: 8443
+  server: 154.26.128.147
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -2462,7 +1933,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 181 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 145 - xiaohe
   type: vmess
   server: 149.88.23.202
   port: 18000
@@ -2472,21 +1943,7 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 182 - xiaohe
-  type: vless
-  server: 162.128.72.114
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 183 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 146 - xiaohe
   type: vless
   server: 174.138.17.183
   port: 443
@@ -2500,37 +1957,537 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 147 - xiaohe
+  type: vless
+  server: 43.156.92.214
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 148 - xiaohe
+  type: vless
+  server: 91.193.58.5
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: free-server.techsonic.dev
+  network: ws
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
+- name: 🇸🇬 新加坡 (Singapore) 149 - xiaohe
+  type: vless
+  server: 194.87.10.77
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 150 - xiaohe
+  type: vless
+  server: 103.106.229.173
+  port: 2053
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 151 - xiaohe
+  type: vless
+  server: 185.115.207.141
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 152 - xiaohe
+  type: vless
+  server: 104.248.158.149
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 153 - xiaohe
+  type: vless
+  server: 149.118.55.215
+  port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 154 - xiaohe
+  type: vless
+  server: 140.245.104.189
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 155 - xiaohe
+  type: vless
+  server: 43.156.142.191
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 156 - xiaohe
+  type: vless
+  server: 89.28.239.171
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 157 - xiaohe
+  type: vless
+  server: 185.115.207.190
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 158 - xiaohe
+  type: vless
+  server: 161.118.198.6
+  port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 159 - xiaohe
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 160 - xiaohe
+  type: vless
+  server: 152.42.247.235
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 161 - xiaohe
+  type: vless
+  server: 128.199.82.20
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 162 - xiaohe
+  type: vless
+  server: 139.180.220.7
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 163 - xiaohe
+  type: vless
+  server: 152.42.247.235
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 164 - xiaohe
+  type: vless
+  server: 159.89.200.153
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 165 - xiaohe
+  type: vless
+  server: 43.156.92.214
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 166 - xiaohe
+  type: vless
+  server: 168.144.128.4
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 167 - xiaohe
+  type: vless
+  server: 172.236.140.241
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 168 - xiaohe
+  type: vless
+  server: 13.250.39.15
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 169 - xiaohe
+  type: vless
+  server: 140.245.104.189
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 170 - xiaohe
+  type: vless
+  server: 45.76.189.166
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 171 - xiaohe
+  type: vless
+  server: 146.190.95.17
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 172 - xiaohe
+  type: vless
+  server: 45.32.123.157
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 173 - xiaohe
+  type: vless
+  server: 51.79.177.53
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 174 - xiaohe
+  type: vless
+  server: 161.117.181.127
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 175 - xiaohe
+  type: vless
+  server: 116.251.217.65
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 176 - xiaohe
+  type: vless
+  server: 167.99.71.38
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 177 - xiaohe
+  type: vless
+  server: 206.189.90.44
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 178 - xiaohe
+  type: vless
+  server: 142.91.102.35
+  port: 443
+  uuid: 54a9c202-cfe9-4bb8-826c-653a52a96c6d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 8.sahanwickramasinghe.me
+- name: 🇸🇬 新加坡 (Singapore) 179 - xiaohe
+  type: vless
+  server: 168.144.97.250
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 180 - xiaohe
+  type: vless
+  server: 45.76.176.85
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 181 - xiaohe
+  type: vless
+  server: 165.232.165.200
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 182 - xiaohe
+  type: vless
+  server: 43.170.38.62
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 183 - xiaohe
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 184 - xiaohe
   type: vless
-  server: 139.59.250.249
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: 91.193.58.131
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
+  servername: free-server.techsonic.dev
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /free-server.techsonic.dev
     headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+      Host: free-server.techsonic.dev
 - name: 🇸🇬 新加坡 (Singapore) 185 - xiaohe
   type: vless
-  server: 45.130.164.109
+  server: 8.sahanwickramasinghe.me
   port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  uuid: 54a9c202-cfe9-4bb8-826c-653a52a96c6d
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+  servername: aka.ms
 - name: 🇸🇬 新加坡 (Singapore) 186 - xiaohe
   type: vless
-  server: 159.65.1.74
+  server: 159.89.200.153
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -2544,7 +2501,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 187 - xiaohe
   type: vless
-  server: 129.212.237.187
+  server: 152.42.235.119
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -2557,93 +2514,20 @@ proxies:
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 188 - xiaohe
-  type: ss
-  server: 167.150.100.115
-  port: 27755
-  cipher: 2022-blake3-aes-256-gcm
-  password: fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0=
+  type: vless
+  server: 43.163.113.253
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 189 - xiaohe
-  type: vless
-  server: 139.162.17.105
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 190 - xiaohe
-  type: vless
-  server: 5.223.93.126
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 191 - xiaohe
-  type: vless
-  server: 139.99.91.38
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 192 - xiaohe
-  type: vless
-  server: 54.254.247.156
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 193 - xiaohe
-  type: vless
-  server: 15.235.212.159
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 194 - xiaohe
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 195 - xiaohe
   type: vless
   server: 157.230.243.63
   port: 443
@@ -2657,10 +2541,94 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 190 - xiaohe
+  type: vless
+  server: 149.118.55.215
+  port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 191 - xiaohe
+  type: vless
+  server: 77.93.90.177
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 192 - xiaohe
+  type: vless
+  server: 195.85.19.136
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 193 - xiaohe
+  type: vless
+  server: 43.170.38.62
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 194 - xiaohe
+  type: vless
+  server: 18.139.30.198
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 195 - xiaohe
+  type: vless
+  server: 47.131.189.221
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 196 - xiaohe
   type: vless
-  server: 5.253.36.155
-  port: 8443
+  server: 149.28.153.207
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -2673,7 +2641,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 197 - xiaohe
   type: vless
-  server: 103.25.202.25
+  server: 116.251.217.65
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -2687,12 +2655,112 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 198 - xiaohe
   type: vless
-  server: 134.122.154.210
+  server: 172.236.130.18
   port: 443
-  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 199 - xiaohe
+  type: vless
+  server: 13.213.65.117
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 200 - xiaohe
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 201 - xiaohe
+  type: vless
+  server: 139.162.20.206
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 202 - xiaohe
+  type: vless
+  server: 168.144.128.4
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 203 - xiaohe
+  type: vless
+  server: 167.71.194.170
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 204 - xiaohe
+  type: vless
+  server: 91.193.58.27
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: free-server.techsonic.dev
+  network: ws
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
+- name: 🇸🇬 新加坡 (Singapore) 205 - xiaohe
+  type: vless
+  server: 152.42.161.156
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -2896,6 +2964,13 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 196 - xiaohe
   - 🇸🇬 新加坡 (Singapore) 197 - xiaohe
   - 🇸🇬 新加坡 (Singapore) 198 - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 199 - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 200 - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 201 - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 202 - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 203 - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 204 - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 205 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -3099,5 +3174,12 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 196 - xiaohe
   - 🇸🇬 新加坡 (Singapore) 197 - xiaohe
   - 🇸🇬 新加坡 (Singapore) 198 - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 199 - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 200 - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 201 - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 202 - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 203 - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 204 - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 205 - xiaohe
 rules:
 - MATCH,PROXIES
