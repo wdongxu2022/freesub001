@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇨🇳 CN 01 - xiaohe
   type: vless
-  server: 103.118.252.100
+  server: 103.242.133.57
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true

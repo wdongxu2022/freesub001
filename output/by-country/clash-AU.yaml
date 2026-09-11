@@ -19,17 +19,18 @@ proxies:
       Host: 103.75.119.126
 - name: 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
   type: vless
-  server: 188.114.97.6
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 103.122.247.65
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
   type: vless
   server: 103.75.119.126

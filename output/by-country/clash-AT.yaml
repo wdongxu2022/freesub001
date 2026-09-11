@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇦🇹 AT 01 - xiaohe
   type: vless
-  server: 83.147.254.36
+  server: 91.184.240.196
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -20,8 +20,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇦🇹 AT 02 - xiaohe
   type: vless
-  server: 62.60.238.191
-  port: 443
+  server: 147.45.69.68
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -33,9 +33,44 @@ proxies:
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇦🇹 AT 03 - xiaohe
+  type: ss
+  server: 82.110.60.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇦🇹 AT 04 - xiaohe
   type: vless
-  server: 109.120.133.26
+  server: 45.155.71.152
   port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇦🇹 AT 05 - xiaohe
+  type: vless
+  server: 89.22.233.52
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇦🇹 AT 06 - xiaohe
+  type: vless
+  server: 91.103.140.55
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -54,6 +89,9 @@ proxy-groups:
   - 🇦🇹 AT 01 - xiaohe
   - 🇦🇹 AT 02 - xiaohe
   - 🇦🇹 AT 03 - xiaohe
+  - 🇦🇹 AT 04 - xiaohe
+  - 🇦🇹 AT 05 - xiaohe
+  - 🇦🇹 AT 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -62,5 +100,8 @@ proxy-groups:
   - 🇦🇹 AT 01 - xiaohe
   - 🇦🇹 AT 02 - xiaohe
   - 🇦🇹 AT 03 - xiaohe
+  - 🇦🇹 AT 04 - xiaohe
+  - 🇦🇹 AT 05 - xiaohe
+  - 🇦🇹 AT 06 - xiaohe
 rules:
 - MATCH,PROXIES
