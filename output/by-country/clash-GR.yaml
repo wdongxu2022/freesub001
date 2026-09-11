@@ -6,63 +6,7 @@ log-level: info
 proxies:
 - name: 🇬🇷 GR 01 - xiaohe
   type: vless
-  server: 83.147.216.129
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇬🇷 GR 02 - xiaohe
-  type: vless
-  server: 91.186.222.75
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇬🇷 GR 03 - xiaohe
-  type: vless
-  server: 91.186.219.82
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇬🇷 GR 04 - xiaohe
-  type: vless
-  server: 91.186.222.154
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇬🇷 GR 05 - xiaohe
-  type: vless
-  server: 83.147.192.104
+  server: 91.186.223.252
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -80,19 +24,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇬🇷 GR 01 - xiaohe
-  - 🇬🇷 GR 02 - xiaohe
-  - 🇬🇷 GR 03 - xiaohe
-  - 🇬🇷 GR 04 - xiaohe
-  - 🇬🇷 GR 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇬🇷 GR 01 - xiaohe
-  - 🇬🇷 GR 02 - xiaohe
-  - 🇬🇷 GR 03 - xiaohe
-  - 🇬🇷 GR 04 - xiaohe
-  - 🇬🇷 GR 05 - xiaohe
 rules:
 - MATCH,PROXIES

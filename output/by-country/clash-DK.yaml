@@ -5,50 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇩🇰 DK 01 - xiaohe
-  type: ss
-  server: 38.180.214.110
-  port: 5600
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇩🇰 DK 02 - xiaohe
-  type: ss
-  server: 38.180.214.110
-  port: 5600
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇩🇰 DK 03 - xiaohe
   type: vless
-  server: 185.21.11.91
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇩🇰 DK 04 - xiaohe
-  type: vless
-  server: 89.127.201.202
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇩🇰 DK 05 - xiaohe
-  type: vless
-  server: 196.196.102.22
+  server: 196.196.102.2
   port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -60,6 +18,13 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇩🇰 DK 02 - xiaohe
+  type: ss
+  server: 38.180.214.110
+  port: 5600
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -67,9 +32,6 @@ proxy-groups:
   - AUTO
   - 🇩🇰 DK 01 - xiaohe
   - 🇩🇰 DK 02 - xiaohe
-  - 🇩🇰 DK 03 - xiaohe
-  - 🇩🇰 DK 04 - xiaohe
-  - 🇩🇰 DK 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -77,8 +39,5 @@ proxy-groups:
   proxies:
   - 🇩🇰 DK 01 - xiaohe
   - 🇩🇰 DK 02 - xiaohe
-  - 🇩🇰 DK 03 - xiaohe
-  - 🇩🇰 DK 04 - xiaohe
-  - 🇩🇰 DK 05 - xiaohe
 rules:
 - MATCH,PROXIES

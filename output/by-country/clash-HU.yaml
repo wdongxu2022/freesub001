@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇹 AT 01 - xiaohe
+- name: 🇭🇺 HU 01 - xiaohe
   type: vless
-  server: 94.228.163.143
+  server: 104.24.30.89
   port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
+  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /?ed=2560
     headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+      Host: rayan-007.nastaran.dpdns.org
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇦🇹 AT 01 - xiaohe
+  - 🇭🇺 HU 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇹 AT 01 - xiaohe
+  - 🇭🇺 HU 01 - xiaohe
 rules:
 - MATCH,PROXIES
