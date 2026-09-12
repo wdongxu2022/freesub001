@@ -6,25 +6,18 @@ log-level: info
 proxies:
 - name: 🇷🇴 RO 01 - xiaohe
   type: ss
-  server: 154.46.31.106
+  server: bogging-eyeteeth-fly.freesocks.work
   port: 443
   cipher: chacha20-ietf-poly1305
   password: QFWzCw2uX9B9i6qAYeFBIE
   udp: true
 - name: 🇷🇴 RO 02 - xiaohe
-  type: vless
-  server: 89.144.8.2
+  type: ss
+  server: 154.46.31.106
   port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select

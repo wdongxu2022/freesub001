@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaohe
   type: vless
-  server: 46.8.102.75
-  port: 443
+  server: 91.98.92.168
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -20,8 +20,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇨🇿 CZ 02 - xiaohe
   type: vless
-  server: 91.99.222.152
-  port: 443
+  server: 136.243.86.77
+  port: 2053
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -34,8 +34,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇨🇿 CZ 03 - xiaohe
   type: vless
-  server: 46.8.101.232
-  port: 8443
+  server: 23.88.44.187
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
