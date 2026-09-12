@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇧🇬 BG 01 - xiaohe
   type: vless
-  server: 192.145.30.27
+  server: 62.171.228.60
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -20,18 +20,13 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇧🇬 BG 02 - xiaohe
   type: vless
-  server: 62.171.228.242
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: neth9.lunariai.ru
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+  servername: neth9.lunariai.ru
 - name: 🇧🇬 BG 03 - xiaohe
   type: vless
   server: 192.145.31.5
@@ -61,7 +56,7 @@ proxies:
   servername: neth9.lunariai.ru
 - name: 🇧🇬 BG 06 - xiaohe
   type: vless
-  server: neth9.lunariai.ru
+  server: 192.145.31.5
   port: 8443
   uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true

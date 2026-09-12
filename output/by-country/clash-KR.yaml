@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 - xiaohe
   type: vless
-  server: 123.111.169.70
-  port: 2083
+  server: 3.37.245.168
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -20,7 +20,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 02 - xiaohe
   type: vless
-  server: 130.94.29.155
+  server: 146.56.142.151
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -34,7 +34,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 03 - xiaohe
   type: vless
-  server: 64.110.79.66
+  server: 168.107.17.234
   port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -47,318 +47,32 @@ proxies:
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 04 - xiaohe
-  type: vmess
-  server: 140.238.2.250
-  port: 443
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 168.107.40.4
+  port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 05 - xiaohe
   type: vless
-  server: 64.176.226.26
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+  reality-opts:
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
 - name: 🇰🇷 韩国 (South Korea) 06 - xiaohe
-  type: vless
-  server: 134.185.127.173
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 07 - xiaohe
-  type: vless
-  server: 119.205.235.58
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 08 - xiaohe
-  type: vless
-  server: 130.162.137.247
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 09 - xiaohe
-  type: vless
-  server: 168.107.14.233
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 10 - xiaohe
-  type: vless
-  server: 168.110.107.218
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 11 - xiaohe
-  type: vless
-  server: 43.133.237.158
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 12 - xiaohe
-  type: vless
-  server: 131.186.25.156
-  port: 2087
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 13 - xiaohe
-  type: vless
-  server: 43.155.221.27
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 14 - xiaohe
-  type: vless
-  server: 43.155.134.179
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 15 - xiaohe
-  type: ss
-  server: 141.164.45.187
-  port: 5001
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 16 - xiaohe
-  type: vless
-  server: 158.247.224.240
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 17 - xiaohe
-  type: vless
-  server: 152.67.208.47
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 18 - xiaohe
-  type: vless
-  server: 134.185.99.52
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 19 - xiaohe
-  type: vless
-  server: 141.164.49.98
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 20 - xiaohe
-  type: vless
-  server: 43.155.221.27
-  port: 8443
-  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: mia3.pages.dev
-  network: ws
-  ws-opts:
-    path: /TG:@MiaChatChannel
-    headers:
-      Host: mia3.pages.dev
-- name: 🇰🇷 韩国 (South Korea) 21 - xiaohe
-  type: vless
-  server: 3.35.51.12
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 22 - xiaohe
-  type: vless
-  server: 45.93.31.34
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 23 - xiaohe
-  type: vless
-  server: 158.247.253.111
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 24 - xiaohe
-  type: vless
-  server: 146.56.151.92
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 25 - xiaohe
-  type: vmess
-  server: 132.145.80.230
-  port: 80
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: kr02.a0a.xyz
-- name: 🇰🇷 韩国 (South Korea) 26 - xiaohe
-  type: vless
-  server: 158.247.201.201
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 27 - xiaohe
   type: vless
   server: 141.164.35.4
   port: 443
@@ -372,7 +86,154 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 28 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 07 - xiaohe
+  type: vless
+  server: 158.247.240.138
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 08 - xiaohe
+  type: vless
+  server: 152.67.214.155
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 09 - xiaohe
+  type: vless
+  server: 152.70.88.124
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 10 - xiaohe
+  type: vless
+  server: 146.56.188.74
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 11 - xiaohe
+  type: ss
+  server: 141.164.45.187
+  port: 6679
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 12 - xiaohe
+  type: vless
+  server: 45.93.31.34
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 13 - xiaohe
+  type: vless
+  server: 168.110.112.196
+  port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 14 - xiaohe
+  type: vless
+  server: 158.247.253.111
+  port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 15 - xiaohe
+  type: vless
+  server: 140.238.30.217
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 16 - xiaohe
+  type: vless
+  server: 54.180.141.246
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 17 - xiaohe
+  type: vless
+  server: 64.110.79.66
+  port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 18 - xiaohe
   type: vless
   server: 110.10.178.240
   port: 443
@@ -386,9 +247,135 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 19 - xiaohe
+  type: vless
+  server: 161.118.153.136
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 20 - xiaohe
+  type: vless
+  server: 193.122.96.190
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 21 - xiaohe
+  type: vless
+  server: 152.70.239.74
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 22 - xiaohe
+  type: vless
+  server: 43.164.134.99
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 23 - xiaohe
+  type: vless
+  server: 152.67.208.47
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 24 - xiaohe
+  type: vless
+  server: 193.122.119.241
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 25 - xiaohe
+  type: ss
+  server: 141.164.45.187
+  port: 8119
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 26 - xiaohe
+  type: vless
+  server: 119.28.162.39
+  port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 27 - xiaohe
+  type: ss
+  server: 141.164.45.187
+  port: 8091
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 28 - xiaohe
+  type: vless
+  server: 168.107.56.181
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 29 - xiaohe
   type: vless
-  server: 141.164.42.2
+  server: 64.110.82.71
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -402,8 +389,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 30 - xiaohe
   type: vless
-  server: 203.248.94.49
-  port: 443
+  server: 43.133.237.158
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -416,21 +403,21 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 31 - xiaohe
   type: vless
-  server: 134.185.99.52
+  server: 64.110.70.64
   port: 443
-  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: mia1.pages.dev
+  servername: tight-flower-bc60.30044201-759.workers.dev
   network: ws
   ws-opts:
-    path: /TG:@MiaChatChannel
+    path: /?ed=2048
     headers:
-      Host: mia1.pages.dev
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 32 - xiaohe
   type: vless
-  server: 152.67.210.234
+  server: 168.110.107.218
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -444,7 +431,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 33 - xiaohe
   type: vless
-  server: 168.110.112.196
+  server: 168.110.121.126
   port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -472,7 +459,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 35 - xiaohe
   type: vless
-  server: 131.186.26.94
+  server: 141.164.49.98
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -486,7 +473,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 36 - xiaohe
   type: vless
-  server: 146.56.115.180
+  server: 152.69.229.110
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -500,7 +487,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 37 - xiaohe
   type: vless
-  server: 146.56.135.196
+  server: 134.185.99.52
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -514,7 +501,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 38 - xiaohe
   type: vless
-  server: 3.37.245.168
+  server: 134.185.114.16
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -528,7 +515,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 39 - xiaohe
   type: vless
-  server: 146.56.119.205
+  server: 43.155.134.179
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -542,8 +529,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 40 - xiaohe
   type: vless
-  server: 134.185.114.16
-  port: 443
+  server: 43.155.221.27
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -556,7 +543,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 41 - xiaohe
   type: vless
-  server: 132.145.91.135
+  server: 152.67.210.234
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -570,285 +557,19 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 42 - xiaohe
   type: vless
-  server: 64.110.70.64
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: 104.18.42.163
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /?ed=2560
     headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
 - name: 🇰🇷 韩国 (South Korea) 43 - xiaohe
-  type: ss
-  server: 141.164.45.187
-  port: 5498
-  cipher: aes-256-gcm
-  password: lGqs95QkFHo2NV
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 44 - xiaohe
-  type: vless
-  server: 146.56.142.151
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 45 - xiaohe
-  type: vless
-  server: 132.145.91.181
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 46 - xiaohe
-  type: vless
-  server: 146.56.167.171
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 47 - xiaohe
-  type: vless
-  server: 47.80.57.116
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 48 - xiaohe
-  type: vless
-  server: 43.164.134.99
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 49 - xiaohe
-  type: vless
-  server: 140.238.21.85
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 50 - xiaohe
-  type: vless
-  server: 119.28.162.39
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 51 - xiaohe
-  type: vless
-  server: 193.123.236.206
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 52 - xiaohe
-  type: vless
-  server: 43.108.46.150
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 53 - xiaohe
-  type: vless
-  server: 168.110.121.126
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 54 - xiaohe
-  type: vless
-  server: 64.110.82.71
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 55 - xiaohe
-  type: vless
-  server: 129.154.197.113
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 56 - xiaohe
-  type: vless
-  server: 152.67.198.36
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 57 - xiaohe
-  type: vless
-  server: 140.238.15.158
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 58 - xiaohe
-  type: ss
-  server: 141.164.45.187
-  port: 6697
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 59 - xiaohe
-  type: vless
-  server: 152.67.214.155
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 60 - xiaohe
-  type: vless
-  server: 54.180.151.15
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 61 - xiaohe
-  type: vless
-  server: 43.131.247.123
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 62 - xiaohe
-  type: vless
-  server: 140.238.30.217
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 63 - xiaohe
   type: vless
   server: 129.154.50.72
   port: 8443
@@ -862,9 +583,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 64 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 44 - xiaohe
   type: vless
-  server: 193.122.96.190
+  server: 134.185.127.173
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -876,7 +597,63 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 65 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 45 - xiaohe
+  type: vless
+  server: 140.238.21.85
+  port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 46 - xiaohe
+  type: vless
+  server: 104.16.150.108
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇰🇷 韩国 (South Korea) 47 - xiaohe
+  type: vless
+  server: 140.245.65.122
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 48 - xiaohe
+  type: vless
+  server: 130.162.137.247
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 49 - xiaohe
   type: vless
   server: 146.56.187.1
   port: 8443
@@ -890,9 +667,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 66 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 50 - xiaohe
   type: vless
-  server: 168.107.56.181
+  server: 129.154.197.113
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -904,9 +681,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 67 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 51 - xiaohe
   type: vless
-  server: 152.69.229.110
+  server: 132.145.91.135
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -918,7 +695,105 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 68 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 52 - xiaohe
+  type: vless
+  server: 131.186.26.94
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 53 - xiaohe
+  type: vless
+  server: 54.180.151.15
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 54 - xiaohe
+  type: vless
+  server: 123.111.169.70
+  port: 2083
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 55 - xiaohe
+  type: vless
+  server: 130.94.29.155
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 56 - xiaohe
+  type: ss
+  server: 141.164.45.187
+  port: 2376
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 57 - xiaohe
+  type: ss
+  server: 141.164.45.187
+  port: 5001
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 58 - xiaohe
+  type: vless
+  server: 43.108.46.150
+  port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 59 - xiaohe
+  type: vless
+  server: 43.155.209.83
+  port: 2053
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 60 - xiaohe
   type: vless
   server: 158.247.210.172
   port: 443
@@ -932,7 +807,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 69 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 61 - xiaohe
   type: vless
   server: 13.124.169.29
   port: 443
@@ -946,10 +821,122 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 62 - xiaohe
+  type: vless
+  server: 146.56.167.171
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 63 - xiaohe
+  type: vless
+  server: 146.56.115.180
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 64 - xiaohe
+  type: vless
+  server: 158.247.201.201
+  port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 65 - xiaohe
+  type: vless
+  server: 47.80.57.116
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 66 - xiaohe
+  type: vless
+  server: 64.176.226.26
+  port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 67 - xiaohe
+  type: vless
+  server: 43.131.247.123
+  port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 68 - xiaohe
+  type: vless
+  server: 146.56.135.196
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 69 - xiaohe
+  type: vless
+  server: 168.107.14.233
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 70 - xiaohe
   type: vless
-  server: 168.107.40.4
-  port: 8443
+  server: 158.247.224.240
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -962,7 +949,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 71 - xiaohe
   type: vless
-  server: 152.70.88.124
+  server: 203.248.94.49
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -990,8 +977,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 73 - xiaohe
   type: vless
-  server: 54.180.141.246
-  port: 443
+  server: 131.186.25.156
+  port: 2087
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -1003,16 +990,23 @@ proxies:
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 74 - xiaohe
-  type: ss
-  server: 141.164.45.187
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
+  type: vless
+  server: 3.35.51.12
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 75 - xiaohe
   type: vless
-  server: 168.107.17.234
-  port: 8443
+  server: 141.164.42.2
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -1024,6 +1018,13 @@ proxies:
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 76 - xiaohe
+  type: ss
+  server: 141.164.45.187
+  port: 7002
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 77 - xiaohe
   type: vless
   server: 134.185.112.134
   port: 443
@@ -1037,23 +1038,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 77 - xiaohe
-  type: vless
-  server: 158.247.240.138
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 78 - xiaohe
   type: vless
-  server: 193.122.115.184
+  server: 193.123.236.206
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1067,22 +1054,22 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 79 - xiaohe
   type: vless
-  server: 172.67.217.240
+  server: 193.122.115.184
   port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  servername: tight-flower-bc60.30044201-759.workers.dev
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 80 - xiaohe
   type: vless
-  server: 152.70.239.74
-  port: 443
+  server: 132.145.91.181
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -1094,44 +1081,6 @@ proxies:
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 81 - xiaohe
-  type: vmess
-  server: 146.56.112.110
-  port: 8888
-  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 82 - xiaohe
-  type: vless
-  server: 140.245.65.122
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 83 - xiaohe
-  type: vless
-  server: 146.56.188.74
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 84 - xiaohe
   type: vless
   server: 141.164.37.50
   port: 443
@@ -1145,21 +1094,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 85 - xiaohe
-  type: vless
-  server: 161.118.153.136
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 86 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 82 - xiaohe
   type: vless
   server: 64.176.230.12
   port: 443
@@ -1173,9 +1108,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 87 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 83 - xiaohe
   type: vless
-  server: 193.122.119.241
+  server: 119.205.235.58
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -1187,18 +1122,62 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 88 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 84 - xiaohe
   type: vless
-  server: 151.245.106.49
-  port: 2053
-  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  server: 152.67.198.36
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 85 - xiaohe
+  type: vless
+  server: 140.238.15.158
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 86 - xiaohe
+  type: vless
+  server: 146.56.119.205
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 87 - xiaohe
+  type: vless
+  server: 146.56.151.92
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -1291,7 +1270,6 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 85 - xiaohe
   - 🇰🇷 韩国 (South Korea) 86 - xiaohe
   - 🇰🇷 韩国 (South Korea) 87 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 88 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -1384,6 +1362,5 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 85 - xiaohe
   - 🇰🇷 韩国 (South Korea) 86 - xiaohe
   - 🇰🇷 韩国 (South Korea) 87 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 88 - xiaohe
 rules:
 - MATCH,PROXIES

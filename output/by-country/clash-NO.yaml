@@ -6,39 +6,40 @@ log-level: info
 proxies:
 - name: 🇳🇴 NO 01 - xiaohe
   type: vless
-  server: 80.78.30.157
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: 151.242.168.125
+  port: 390
+  uuid: b02ff150-ee30-46e0-9ea1-adbfd7762a06
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+  reality-opts:
+    public-key: 5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8
+  servername: bowandbead.com
+  client-fingerprint: ios
 - name: 🇳🇴 NO 02 - xiaohe
-  type: ss
-  server: 185.213.23.63
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  type: vless
+  server: 151.242.168.125
+  port: 390
+  uuid: b02ff150-ee30-46e0-9ea1-adbfd7762a06
   udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8
+  servername: bowandbead.com
+  client-fingerprint: random
 - name: 🇳🇴 NO 03 - xiaohe
   type: vless
-  server: 80.78.19.185
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: aldebaran.yokkastars.com
+  port: 40443
+  uuid: ed91e79c-f6bf-4fba-8cc0-6d45acaec22b
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+  reality-opts:
+    public-key: dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4
+  servername: deepl.com
+  client-fingerprint: chrome
 - name: 🇳🇴 NO 04 - xiaohe
   type: vless
   server: 46.29.238.88
@@ -62,24 +63,34 @@ proxies:
   reality-opts:
     public-key: dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4
   servername: deepl.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇳🇴 NO 06 - xiaohe
   type: vless
-  server: 80.78.25.208
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: aldebaran.yokkastars.com
+  port: 40443
+  uuid: ed91e79c-f6bf-4fba-8cc0-6d45acaec22b
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+  reality-opts:
+    public-key: dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4
+  servername: deepl.com
+  client-fingerprint: chrome
 - name: 🇳🇴 NO 07 - xiaohe
   type: vless
-  server: 80.78.27.56
+  server: aldebaran.yokkastars.com
+  port: 40443
+  uuid: ed91e79c-f6bf-4fba-8cc0-6d45acaec22b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇳🇴 NO 08 - xiaohe
+  type: vless
+  server: 80.78.31.117
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -91,6 +102,30 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇳🇴 NO 09 - xiaohe
+  type: vless
+  server: 151.242.168.125
+  port: 390
+  uuid: 7b363f9c-3df9-4b60-a789-9cd36be0bdfe
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8
+  servername: bowandbead.com
+  client-fingerprint: chrome
+- name: 🇳🇴 NO 10 - xiaohe
+  type: vless
+  server: 151.242.168.125
+  port: 390
+  uuid: 7b363f9c-3df9-4b60-a789-9cd36be0bdfe
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8
+  servername: bowandbead.com
+  client-fingerprint: qq
 proxy-groups:
 - name: PROXIES
   type: select
@@ -103,6 +138,9 @@ proxy-groups:
   - 🇳🇴 NO 05 - xiaohe
   - 🇳🇴 NO 06 - xiaohe
   - 🇳🇴 NO 07 - xiaohe
+  - 🇳🇴 NO 08 - xiaohe
+  - 🇳🇴 NO 09 - xiaohe
+  - 🇳🇴 NO 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -115,5 +153,8 @@ proxy-groups:
   - 🇳🇴 NO 05 - xiaohe
   - 🇳🇴 NO 06 - xiaohe
   - 🇳🇴 NO 07 - xiaohe
+  - 🇳🇴 NO 08 - xiaohe
+  - 🇳🇴 NO 09 - xiaohe
+  - 🇳🇴 NO 10 - xiaohe
 rules:
 - MATCH,PROXIES
