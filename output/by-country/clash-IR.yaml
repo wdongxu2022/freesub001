@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇮🇷 IR 01 - xiaohe
   type: vless
-  server: 185.31.8.10
-  port: 8443
+  server: 62.60.152.31
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -20,8 +20,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇮🇷 IR 02 - xiaohe
   type: vless
-  server: 62.60.217.109
-  port: 443
+  server: 62.60.250.185
+  port: 2096
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true

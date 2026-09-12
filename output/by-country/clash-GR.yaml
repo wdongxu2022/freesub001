@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇬🇷 GR 01 - xiaohe
   type: vless
-  server: 83.147.216.239
-  port: 443
+  server: 91.186.217.16
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -20,7 +20,21 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇬🇷 GR 02 - xiaohe
   type: vless
-  server: 91.186.217.115
+  server: 83.147.192.5
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇬🇷 GR 03 - xiaohe
+  type: vless
+  server: 178.253.31.232
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -39,6 +53,7 @@ proxy-groups:
   - AUTO
   - 🇬🇷 GR 01 - xiaohe
   - 🇬🇷 GR 02 - xiaohe
+  - 🇬🇷 GR 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -46,5 +61,6 @@ proxy-groups:
   proxies:
   - 🇬🇷 GR 01 - xiaohe
   - 🇬🇷 GR 02 - xiaohe
+  - 🇬🇷 GR 03 - xiaohe
 rules:
 - MATCH,PROXIES
