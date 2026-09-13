@@ -4,10 +4,10 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇳 CN 01 - xiaohe
+- name: 🇵🇹 PT 01 - xiaohe
   type: vless
-  server: 162.4.136.79
-  port: 443
+  server: 206.245.130.186
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -23,12 +23,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇨🇳 CN 01 - xiaohe
+  - 🇵🇹 PT 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇳 CN 01 - xiaohe
+  - 🇵🇹 PT 01 - xiaohe
 rules:
 - MATCH,PROXIES

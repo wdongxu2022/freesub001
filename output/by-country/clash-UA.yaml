@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇺🇦 UA 01 - xiaohe
   type: vless
-  server: 87.76.190.244
-  port: 443
+  server: 193.104.58.12
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true

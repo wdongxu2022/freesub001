@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaohe
   type: vless
-  server: 138.201.246.107
+  server: 49.12.208.254
   port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -20,8 +20,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇨🇿 CZ 02 - xiaohe
   type: vless
-  server: 194.87.200.151
-  port: 8443
+  server: 91.107.185.172
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -34,8 +34,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇨🇿 CZ 03 - xiaohe
   type: vless
-  server: 116.202.8.39
-  port: 443
+  server: 91.107.168.227
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -48,7 +48,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇨🇿 CZ 04 - xiaohe
   type: vless
-  server: 91.99.155.188
+  server: 46.8.101.232
   port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -62,7 +62,34 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇨🇿 CZ 05 - xiaohe
   type: vless
-  server: 95.85.234.211
+  server: 162.159.48.32
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇨🇿 CZ 06 - xiaohe
+  type: vless
+  server: 193.124.226.62
+  port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇨🇿 CZ 07 - xiaohe
+  type: vless
+  server: 194.58.57.175
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -74,9 +101,23 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇨🇿 CZ 06 - xiaohe
+- name: 🇨🇿 CZ 08 - xiaohe
   type: vless
-  server: 95.182.95.75
+  server: 5.75.235.115
+  port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇨🇿 CZ 09 - xiaohe
+  type: vless
+  server: 178.104.210.196
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -99,6 +140,9 @@ proxy-groups:
   - 🇨🇿 CZ 04 - xiaohe
   - 🇨🇿 CZ 05 - xiaohe
   - 🇨🇿 CZ 06 - xiaohe
+  - 🇨🇿 CZ 07 - xiaohe
+  - 🇨🇿 CZ 08 - xiaohe
+  - 🇨🇿 CZ 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -110,5 +154,8 @@ proxy-groups:
   - 🇨🇿 CZ 04 - xiaohe
   - 🇨🇿 CZ 05 - xiaohe
   - 🇨🇿 CZ 06 - xiaohe
+  - 🇨🇿 CZ 07 - xiaohe
+  - 🇨🇿 CZ 08 - xiaohe
+  - 🇨🇿 CZ 09 - xiaohe
 rules:
 - MATCH,PROXIES
