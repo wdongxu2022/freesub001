@@ -18,13 +18,6 @@ proxies:
     headers:
       Host: pl2.lckdwn.ru
 - name: 🇵🇱 PL 02 - xiaohe
-  type: ss
-  server: 194.61.121.93
-  port: 7538
-  cipher: chacha20-ietf-poly1305
-  password: U9YAoqBgg5VyGBc6vQv1sN
-  udp: true
-- name: 🇵🇱 PL 03 - xiaohe
   type: vless
   server: 94.183.209.58
   port: 443
@@ -36,33 +29,41 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: pl2.lckdwn.ru
-- name: 🇵🇱 PL 04 - xiaohe
+      Host: 94.183.209.58
+- name: 🇵🇱 PL 03 - xiaohe
   type: vless
-  server: 178.95.170.115
-  port: 2087
-  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
+  server: 94.183.209.59
+  port: 443
+  uuid: d23cb516-40db-4aa4-8142-6b45ff882f90
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /4bc027a44532
+    path: /
     headers:
-      Host: 178.95.170.115
+      Host: 94.183.209.59
+- name: 🇵🇱 PL 04 - xiaohe
+  type: ss
+  server: 194.61.121.93
+  port: 7538
+  cipher: chacha20-ietf-poly1305
+  password: U9YAoqBgg5VyGBc6vQv1sN
+  udp: true
 - name: 🇵🇱 PL 05 - xiaohe
   type: vless
-  server: 178.95.170.115
-  port: 2087
-  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
+  server: 95.165.79.244
+  port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
   network: ws
   ws-opts:
-    path: /4bc027a44532
+    path: /?ed=2048
     headers:
-      Host: telegram-leviko_v2ray
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇵🇱 PL 06 - xiaohe
   type: vless
   server: 94.183.209.59
@@ -88,7 +89,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 94.183.209.58
+      Host: pl2.lckdwn.ru
 proxy-groups:
 - name: PROXIES
   type: select
