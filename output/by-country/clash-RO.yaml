@@ -6,8 +6,29 @@ log-level: info
 proxies:
 - name: 🇷🇴 RO 01 - xiaohe
   type: vless
-  server: 45.142.141.242
+  server: 82.27.2.82
   port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇷🇴 RO 02 - xiaohe
+  type: ss
+  server: 154.46.31.106
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  udp: true
+- name: 🇷🇴 RO 03 - xiaohe
+  type: vless
+  server: 217.60.240.190
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -24,11 +45,15 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇷🇴 RO 01 - xiaohe
+  - 🇷🇴 RO 02 - xiaohe
+  - 🇷🇴 RO 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇷🇴 RO 01 - xiaohe
+  - 🇷🇴 RO 02 - xiaohe
+  - 🇷🇴 RO 03 - xiaohe
 rules:
 - MATCH,PROXIES

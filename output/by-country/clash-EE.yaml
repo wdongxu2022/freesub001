@@ -15,20 +15,6 @@ proxies:
   servername: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 02 - xiaohe
   type: vless
-  server: 45.67.130.107
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇪🇪 EE 03 - xiaohe
-  type: vless
   server: 64.188.82.173
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
@@ -48,7 +34,6 @@ proxy-groups:
   - AUTO
   - 🇪🇪 EE 01 - xiaohe
   - 🇪🇪 EE 02 - xiaohe
-  - 🇪🇪 EE 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -56,6 +41,5 @@ proxy-groups:
   proxies:
   - 🇪🇪 EE 01 - xiaohe
   - 🇪🇪 EE 02 - xiaohe
-  - 🇪🇪 EE 03 - xiaohe
 rules:
 - MATCH,PROXIES

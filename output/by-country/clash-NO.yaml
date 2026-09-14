@@ -13,17 +13,26 @@ proxies:
   udp: true
 - name: 🇳🇴 NO 02 - xiaohe
   type: vless
-  server: 89.185.81.65
-  port: 40443
-  uuid: ed91e79c-f6bf-4fba-8cc0-6d45acaec22b
+  server: 80.78.19.185
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4
-  servername: deepl.com
-  client-fingerprint: chrome
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇳🇴 NO 03 - xiaohe
+  type: ss
+  server: 185.213.23.63
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  udp: true
+- name: 🇳🇴 NO 04 - xiaohe
   type: vless
   server: 151.242.168.125
   port: 390
@@ -35,6 +44,32 @@ proxies:
     public-key: 5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8
   servername: bowandbead.com
   client-fingerprint: qq
+- name: 🇳🇴 NO 05 - xiaohe
+  type: vless
+  server: 80.78.23.165
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇳🇴 NO 06 - xiaohe
+  type: vless
+  server: 89.185.81.65
+  port: 40443
+  uuid: ed91e79c-f6bf-4fba-8cc0-6d45acaec22b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4
+  servername: deepl.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -43,6 +78,9 @@ proxy-groups:
   - 🇳🇴 NO 01 - xiaohe
   - 🇳🇴 NO 02 - xiaohe
   - 🇳🇴 NO 03 - xiaohe
+  - 🇳🇴 NO 04 - xiaohe
+  - 🇳🇴 NO 05 - xiaohe
+  - 🇳🇴 NO 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -51,5 +89,8 @@ proxy-groups:
   - 🇳🇴 NO 01 - xiaohe
   - 🇳🇴 NO 02 - xiaohe
   - 🇳🇴 NO 03 - xiaohe
+  - 🇳🇴 NO 04 - xiaohe
+  - 🇳🇴 NO 05 - xiaohe
+  - 🇳🇴 NO 06 - xiaohe
 rules:
 - MATCH,PROXIES
