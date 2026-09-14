@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - xiaohe
   type: vless
-  server: 156.226.168.252
+  server: 45.202.240.132
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -20,35 +20,34 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇨 SC 02 - xiaohe
   type: vless
-  server: 45.141.177.62
+  server: 45.130.125.73
   port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  uuid: 50414e45-4c5f-5a45-5553-cea58e4acf49
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
+  servername: web-app-aug8yr.app-f1qsy1.workers.dev
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /api/ws
     headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+      Host: web-app-aug8yr.app-f1qsy1.workers.dev
 - name: 🇸🇨 SC 03 - xiaohe
   type: vless
-  server: 156.226.168.206
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: 45.192.224.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+      Host: vms.lifetime17.workers.dev
 - name: 🇸🇨 SC 04 - xiaohe
   type: vless
-  server: 45.9.117.237
+  server: 45.141.177.62
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -62,35 +61,20 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇸🇨 SC 05 - xiaohe
   type: vless
-  server: 156.239.252.201
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: 108.162.198.178
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇸🇨 SC 06 - xiaohe
   type: vless
-  server: 45.203.217.25
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇨 SC 07 - xiaohe
-  type: vless
-  server: 156.239.245.134
+  server: 193.39.208.239
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -113,7 +97,6 @@ proxy-groups:
   - 🇸🇨 SC 04 - xiaohe
   - 🇸🇨 SC 05 - xiaohe
   - 🇸🇨 SC 06 - xiaohe
-  - 🇸🇨 SC 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -125,6 +108,5 @@ proxy-groups:
   - 🇸🇨 SC 04 - xiaohe
   - 🇸🇨 SC 05 - xiaohe
   - 🇸🇨 SC 06 - xiaohe
-  - 🇸🇨 SC 07 - xiaohe
 rules:
 - MATCH,PROXIES

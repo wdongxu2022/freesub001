@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇬🇷 GR 01 - xiaohe
+- name: 🇱🇻 LV 01 - xiaohe
   type: vless
-  server: 83.147.216.8
+  server: 213.21.241.85
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -18,9 +18,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇬🇷 GR 02 - xiaohe
+- name: 🇱🇻 LV 02 - xiaohe
   type: vless
-  server: 83.147.222.229
+  server: 213.21.241.12
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -37,14 +37,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇬🇷 GR 01 - xiaohe
-  - 🇬🇷 GR 02 - xiaohe
+  - 🇱🇻 LV 01 - xiaohe
+  - 🇱🇻 LV 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇬🇷 GR 01 - xiaohe
-  - 🇬🇷 GR 02 - xiaohe
+  - 🇱🇻 LV 01 - xiaohe
+  - 🇱🇻 LV 02 - xiaohe
 rules:
 - MATCH,PROXIES
