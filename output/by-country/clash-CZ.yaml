@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaohe
   type: vless
-  server: 148.253.208.57
+  server: 178.105.23.181
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇨🇿 CZ 02 - xiaohe
   type: vless
-  server: 46.8.102.75
+  server: 194.58.39.222
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -34,8 +34,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇨🇿 CZ 03 - xiaohe
   type: vless
-  server: 95.182.89.173
-  port: 443
+  server: 91.107.166.26
+  port: 2053
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -48,35 +48,8 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇨🇿 CZ 04 - xiaohe
   type: vless
-  server: 185.158.133.40
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?https%3A%2F%2Ft.me%2Fyoutube%40ZYFXS%F0%9F%87%A8%F0%9F%87%B3=
-    headers:
-      Host: vms.lifetime58.workers.dev
-- name: 🇨🇿 CZ 05 - xiaohe
-  type: vless
-  server: 91.98.33.75
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇨🇿 CZ 06 - xiaohe
-  type: vless
-  server: 49.12.241.100
-  port: 8443
+  server: 46.8.102.75
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -96,8 +69,6 @@ proxy-groups:
   - 🇨🇿 CZ 02 - xiaohe
   - 🇨🇿 CZ 03 - xiaohe
   - 🇨🇿 CZ 04 - xiaohe
-  - 🇨🇿 CZ 05 - xiaohe
-  - 🇨🇿 CZ 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -107,7 +78,5 @@ proxy-groups:
   - 🇨🇿 CZ 02 - xiaohe
   - 🇨🇿 CZ 03 - xiaohe
   - 🇨🇿 CZ 04 - xiaohe
-  - 🇨🇿 CZ 05 - xiaohe
-  - 🇨🇿 CZ 06 - xiaohe
 rules:
 - MATCH,PROXIES

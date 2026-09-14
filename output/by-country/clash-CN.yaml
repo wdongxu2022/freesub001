@@ -32,6 +32,20 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇨🇳 CN 03 - xiaohe
+  type: vless
+  server: 103.115.64.205
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -39,6 +53,7 @@ proxy-groups:
   - AUTO
   - 🇨🇳 CN 01 - xiaohe
   - 🇨🇳 CN 02 - xiaohe
+  - 🇨🇳 CN 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -46,5 +61,6 @@ proxy-groups:
   proxies:
   - 🇨🇳 CN 01 - xiaohe
   - 🇨🇳 CN 02 - xiaohe
+  - 🇨🇳 CN 03 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -6,19 +6,21 @@ log-level: info
 proxies:
 - name: 🇦🇹 AT 01 - xiaohe
   type: vless
-  server: 152.53.1.40
+  server: 77.110.97.158
   port: 443
-  uuid: edde565e-41f5-400e-84ea-7b87a3e84488
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-  servername: at.quattro-tech.ru
-  client-fingerprint: chrome
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇦🇹 AT 02 - xiaohe
   type: vless
-  server: 185.103.103.234
+  server: 77.110.97.92
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -39,19 +41,7 @@ proxies:
   udp: true
 - name: 🇦🇹 AT 04 - xiaohe
   type: vless
-  server: 152.53.1.40
-  port: 443
-  uuid: edde565e-41f5-400e-84ea-7b87a3e84488
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-  servername: at.quattro-tech.ru
-  client-fingerprint: random
-- name: 🇦🇹 AT 05 - xiaohe
-  type: vless
-  server: 89.22.236.205
+  server: 89.22.231.148
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -63,10 +53,10 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇦🇹 AT 06 - xiaohe
+- name: 🇦🇹 AT 05 - xiaohe
   type: vless
-  server: 62.60.153.23
-  port: 443
+  server: 91.186.217.16
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -87,7 +77,6 @@ proxy-groups:
   - 🇦🇹 AT 03 - xiaohe
   - 🇦🇹 AT 04 - xiaohe
   - 🇦🇹 AT 05 - xiaohe
-  - 🇦🇹 AT 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -98,6 +87,5 @@ proxy-groups:
   - 🇦🇹 AT 03 - xiaohe
   - 🇦🇹 AT 04 - xiaohe
   - 🇦🇹 AT 05 - xiaohe
-  - 🇦🇹 AT 06 - xiaohe
 rules:
 - MATCH,PROXIES
