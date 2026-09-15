@@ -216,7 +216,7 @@ def fetch_raw_nodes():
     print("[*] 正在抓取全部可用节点池...")
     for url in SOURCE_URLS:
         try:
-            resp = requests.get(url, headers=headers, timeout=25)
+            resp = requests.get(url, headers=headers, timeout=10)
             if resp.status_code == 200:
                 extracted = extract_nodes_from_text(resp.text)
                 nodes.update(extracted)
@@ -680,7 +680,7 @@ def classify_and_filter(alive_nodes):
     processed = 0
     last_log_time = time.time()
 
-    with ThreadPoolExecutor(max_workers=10) as executor:  # 降低并发到 10
+    with ThreadPoolExecutor(max_workers=3) as executor:  # 降低并发到 3
         futures = [executor.submit(classify_item, item) for item in alive_nodes]
         for f in as_completed(futures):
             res = f.result()
