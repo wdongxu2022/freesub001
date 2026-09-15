@@ -30,7 +30,17 @@ SOURCE_URLS = [
     "https://open.heleimail.workers.dev/",
     "https://www.ermao.net/sub/v2ray/ermao.net",
     "https://tight-flower-bc60.30044201-759.workers.dev/5d8782e4-cbf3-4b3f-936b-a83ffc01d430/sub?name=CFBox",
-]
+
+    # 新增优质源 - 2026-09-15
+    "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/verified/configs.txt",  # 已测活验证 (~1880节点)
+    "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/all.txt",  # 全量 (~25082节点)
+    "https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/main/sub/vless.txt",  # vless协议 (~9557节点)
+    "https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/main/sub/vmess.txt",  # vmess协议 (~1482节点)
+    "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/sub",  # 每日更新 (~1081节点)
+    "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/nodes.txt",  # 每小时更新 (~13节点)
+    "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/super-sub.txt",  # 精选 (~138节点)
+    "https://raw.githubusercontent.com/VovaplusEXP/p-configs/main/Splitted-By-Protocol-Base64/vless.txt",  # vless (~359节点)
+    ]
 
 OUTPUT_DIR = "output"
 COUNTRY_DIR = os.path.join(OUTPUT_DIR, "by-country")
