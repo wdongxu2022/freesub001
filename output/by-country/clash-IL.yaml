@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇪 BE 01 - xiaohe
+- name: 🇮🇱 IL 01 - xiaohe
   type: vless
-  server: 77.238.252.140
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: 104.24.3.153
+  port: 443
+  uuid: 887f0c24-8b2e-40ce-8df5-27b4cb06ce81
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
+  servername: usER-svc-Ca3845-EdG.PlAtfOrm-37528A.woRkErs.Dev
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /?proxyip=185.239.48.237&ed=2560
     headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+      Host: usER-Svc-ca3845-Edg.PlAtforM-37528a.WoRkERS.deV
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇪 BE 01 - xiaohe
+  - 🇮🇱 IL 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇪 BE 01 - xiaohe
+  - 🇮🇱 IL 01 - xiaohe
 rules:
 - MATCH,PROXIES

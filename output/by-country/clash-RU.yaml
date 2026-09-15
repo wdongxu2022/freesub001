@@ -6,31 +6,47 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   type: vless
-  server: 78.159.247.246
-  port: 443
-  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
+  server: 45.155.205.220
+  port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: sb2.hat.onl
+  servername: tight-flower-bc60.30044201-759.workers.dev
   network: ws
   ws-opts:
-    path: /ws
+    path: /?ed=2048
     headers:
-      Host: sb2.hat.onl
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   type: vless
-  server: 45.12.75.242
-  port: 26424
-  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
+  server: 78.159.247.246
+  port: 443
+  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
-  servername: ya.ru
-  client-fingerprint: chrome
+  servername: sb2.hat.onl
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: sb2.hat.onl
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: /QFycb02d87cByC9+5ZRSygI1avHiPXkgYG2yc+TnGA=
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  type: ss
+  server: 195.133.23.200
+  port: 7018
+  cipher: aes-256-gcm
+  password: 81a20429165df87e
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   type: vless
   server: 78.159.247.246
   port: 443
@@ -44,20 +60,6 @@ proxies:
     path: /ws
     headers:
       Host: sb2.hat.onl
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  type: ss
-  server: 194.87.196.13
-  port: 7018
-  cipher: aes-256-gcm
-  password: 4938e975724d0ed1
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  type: ss
-  server: 195.58.48.137
-  port: 7018
-  cipher: aes-256-gcm
-  password: 8ad9d72a5571df86
-  udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
   type: vless
   server: 46.8.200.91
@@ -76,53 +78,27 @@ proxies:
   type: vless
   server: 46.8.200.91
   port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
+  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
   udp: true
   tls: true
   skip-cert-verify: true
   servername: cf3.rumedia-cdn.com
   network: ws
   ws-opts:
-    path: /casc
+    path: /cdn/v3/live
     headers:
       Host: cf3.rumedia-cdn.com
 - name: 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
-  type: vless
-  server: 217.149.31.117
-  port: 443
-  uuid: 1f507f26-949e-4dab-9191-0d116e2bd8aa
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tr2.wba-pn.ru
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 217.149.31.117
-- name: 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
   type: ss
   server: 46.17.42.166
   port: 50111
   cipher: aes-256-gcm
   password: 6b39ae3234dfd68b
   udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
   type: vless
-  server: 45.12.75.242
-  port: 26424
-  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
-  servername: ya.ru
-  client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 11 - xiaohe
-  type: vless
-  server: 37.220.84.132
-  port: 443
+  server: 130.49.178.104
+  port: 8443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -133,6 +109,27 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
+  type: vless
+  server: 46.8.200.91
+  port: 443
+  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cf3.rumedia-cdn.com
+  network: ws
+  ws-opts:
+    path: /casc
+    headers:
+      Host: cf3.rumedia-cdn.com
+- name: 🇷🇺 俄罗斯 (Russia) 11 - xiaohe
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: /QFycb02d87cByC9+5ZRSygI1avHiPXkgYG2yc+TnGA=
+  udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 12 - xiaohe
   type: vless
   server: 45.12.75.242
@@ -146,19 +143,33 @@ proxies:
   servername: ya.ru
   client-fingerprint: chrome
 - name: 🇷🇺 俄罗斯 (Russia) 13 - xiaohe
-  type: ss
-  server: 130.49.189.158
-  port: 43558
-  cipher: chacha20-ietf-poly1305
-  password: /QFycb02d87cByC9+5ZRSygI1avHiPXkgYG2yc+TnGA=
+  type: vless
+  server: 78.159.247.246
+  port: 443
+  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sb2.hat.onl
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: sb2.hat.onl
 - name: 🇷🇺 俄罗斯 (Russia) 14 - xiaohe
-  type: ss
-  server: 130.49.189.158
-  port: 43558
-  cipher: chacha20-ietf-poly1305
-  password: /QFycb02d87cByC9+5ZRSygI1avHiPXkgYG2yc+TnGA=
+  type: vless
+  server: 78.159.247.246
+  port: 443
+  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sb2.hat.onl
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: sb2.hat.onl
 - name: 🇷🇺 俄罗斯 (Russia) 15 - xiaohe
   type: vless
   server: 78.159.247.246
@@ -174,17 +185,12 @@ proxies:
     headers:
       Host: sb2.hat.onl
 - name: 🇷🇺 俄罗斯 (Russia) 16 - xiaohe
-  type: vless
-  server: 45.12.75.242
-  port: 26424
-  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
+  type: ss
+  server: 195.133.5.102
+  port: 7018
+  cipher: aes-256-gcm
+  password: 895b4b796a357570
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
-  servername: ya.ru
-  client-fingerprint: qq
 - name: 🇷🇺 俄罗斯 (Russia) 17 - xiaohe
   type: ss
   server: 46.17.42.166
@@ -193,12 +199,19 @@ proxies:
   password: 6b39ae3234dfd68b
   udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 18 - xiaohe
-  type: ss
-  server: 195.133.23.200
-  port: 7018
-  cipher: aes-256-gcm
-  password: 81a20429165df87e
+  type: vless
+  server: 78.159.247.246
+  port: 443
+  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sb2.hat.onl
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: sb2.hat.onl
 - name: 🇷🇺 俄罗斯 (Russia) 19 - xiaohe
   type: vless
   server: 78.159.247.246
@@ -214,58 +227,68 @@ proxies:
     headers:
       Host: sb2.hat.onl
 - name: 🇷🇺 俄罗斯 (Russia) 20 - xiaohe
-  type: ss
-  server: 195.133.5.102
-  port: 7018
-  cipher: aes-256-gcm
-  password: 895b4b796a357570
+  type: vless
+  server: 78.159.247.246
+  port: 443
+  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sb2.hat.onl
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: sb2.hat.onl
 - name: 🇷🇺 俄罗斯 (Russia) 21 - xiaohe
   type: vless
-  server: 45.12.75.242
-  port: 26424
-  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
+  server: 78.159.247.246
+  port: 443
+  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
-  servername: ya.ru
-  client-fingerprint: firefox
+  servername: sb2.hat.onl
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: sb2.hat.onl
 - name: 🇷🇺 俄罗斯 (Russia) 22 - xiaohe
+  type: vless
+  server: 78.159.247.246
+  port: 443
+  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sb2.hat.onl
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: sb2.hat.onl
+- name: 🇷🇺 俄罗斯 (Russia) 23 - xiaohe
   type: ss
-  server: 46.17.40.234
+  server: 195.58.48.137
   port: 7018
   cipher: aes-256-gcm
-  password: bdb313adf74c2ede
+  password: 8ad9d72a5571df86
   udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 23 - xiaohe
-  type: vless
-  server: 186.246.48.59
-  port: 2200
-  uuid: 72c8ea26-8b77-4e31-a23f-79c19b3a2ef1
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: 186.246.48.59
 - name: 🇷🇺 俄罗斯 (Russia) 24 - xiaohe
   type: vless
-  server: 46.8.200.91
+  server: 78.159.247.246
   port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
+  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cf3.rumedia-cdn.com
+  servername: sb2.hat.onl
   network: ws
   ws-opts:
-    path: /casc
+    path: /ws
     headers:
-      Host: cf3.rumedia-cdn.com
+      Host: sb2.hat.onl
 - name: 🇷🇺 俄罗斯 (Russia) 25 - xiaohe
   type: vless
   server: 78.159.247.246
@@ -291,64 +314,33 @@ proxies:
   reality-opts:
     public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
   servername: ya.ru
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇷🇺 俄罗斯 (Russia) 27 - xiaohe
   type: vless
-  server: 147.45.175.81
-  port: 8443
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  server: 45.12.75.242
+  port: 26424
+  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: vlessru.duckdns.org
-  network: ws
-  ws-opts:
-    path: /wsru
-    headers:
-      Host: vlessru.duckdns.org
+  reality-opts:
+    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
+  servername: ya.ru
+  client-fingerprint: chrome
 - name: 🇷🇺 俄罗斯 (Russia) 28 - xiaohe
   type: vless
-  server: 46.8.200.91
-  port: 443
-  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
+  server: 185.185.69.26
+  port: 2200
+  uuid: 7ee53e03-96ed-4121-9da2-62f3d3374506
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: cf3.rumedia-cdn.com
   network: ws
   ws-opts:
-    path: /cdn/v3/live
+    path: /v1
     headers:
-      Host: cf3.rumedia-cdn.com
+      Host: rzd.ru
 - name: 🇷🇺 俄罗斯 (Russia) 29 - xiaohe
-  type: vless
-  server: 94.228.160.154
-  port: 2053
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇷🇺 俄罗斯 (Russia) 30 - xiaohe
-  type: vless
-  server: 78.159.247.246
-  port: 443
-  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sb2.hat.onl
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: sb2.hat.onl
-- name: 🇷🇺 俄罗斯 (Russia) 31 - xiaohe
   type: vless
   server: 46.8.200.91
   port: 443
@@ -361,8 +353,20 @@ proxies:
   ws-opts:
     path: /casc
     headers:
-      Host: 46.8.200.91
-- name: 🇷🇺 俄罗斯 (Russia) 32 - xiaohe
+      Host: cf3.rumedia-cdn.com
+- name: 🇷🇺 俄罗斯 (Russia) 30 - xiaohe
+  type: vless
+  server: 45.12.75.242
+  port: 26424
+  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
+  servername: ya.ru
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 31 - xiaohe
   type: vless
   server: 78.159.247.246
   port: 443
@@ -376,6 +380,99 @@ proxies:
     path: /ws
     headers:
       Host: sb2.hat.onl
+- name: 🇷🇺 俄罗斯 (Russia) 32 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 33 - xiaohe
+  type: vless
+  server: 45.12.75.242
+  port: 26424
+  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
+  servername: ya.ru
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 34 - xiaohe
+  type: vless
+  server: 78.159.247.246
+  port: 443
+  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sb2.hat.onl
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: sb2.hat.onl
+- name: 🇷🇺 俄罗斯 (Russia) 35 - xiaohe
+  type: vless
+  server: 78.159.247.246
+  port: 443
+  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sb2.hat.onl
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: sb2.hat.onl
+- name: 🇷🇺 俄罗斯 (Russia) 36 - xiaohe
+  type: vless
+  server: 37.220.84.132
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 37 - xiaohe
+  type: vless
+  server: 172.64.32.103
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 38 - xiaohe
+  type: vless
+  server: 172.64.229.170
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
@@ -413,6 +510,12 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 30 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 31 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 32 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 33 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 34 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 35 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 36 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 37 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 38 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -450,5 +553,11 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 30 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 31 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 32 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 33 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 34 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 35 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 36 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 37 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 38 - xiaohe
 rules:
 - MATCH,PROXIES

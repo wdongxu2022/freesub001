@@ -5,23 +5,113 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 PL 01 - xiaohe
+  type: vless
+  server: 64.176.64.194
+  port: 25585
+  uuid: 6eebb521-1844-4c3c-bf54-fb0e19870f80
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇵🇱 PL 02 - xiaohe
   type: ss
   server: 194.61.121.93
   port: 7538
   cipher: chacha20-ietf-poly1305
   password: U9YAoqBgg5VyGBc6vQv1sN
   udp: true
+- name: 🇵🇱 PL 03 - xiaohe
+  type: vless
+  server: 64.176.64.194
+  port: 25585
+  uuid: 8b84bbec-9a55-47c2-ac2e-03c41065e572
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇵🇱 PL 04 - xiaohe
+  type: vless
+  server: 64.176.64.194
+  port: 25585
+  uuid: 6eebb521-1844-4c3c-bf54-fb0e19870f80
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇵🇱 PL 05 - xiaohe
+  type: vless
+  server: 64.176.64.194
+  port: 25585
+  uuid: 6eebb521-1844-4c3c-bf54-fb0e19870f80
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇵🇱 PL 06 - xiaohe
+  type: vless
+  server: 64.176.64.194
+  port: 25585
+  uuid: e4668a2b-66d6-4500-bcef-5ed52414e40a
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇵🇱 PL 07 - xiaohe
+  type: vless
+  server: 64.176.64.194
+  port: 25585
+  uuid: 6eebb521-1844-4c3c-bf54-fb0e19870f80
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇵🇱 PL 08 - xiaohe
+  type: vless
+  server: 64.176.64.194
+  port: 25585
+  uuid: 6eebb521-1844-4c3c-bf54-fb0e19870f80
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇵🇱 PL 09 - xiaohe
+  type: vless
+  server: 64.176.64.194
+  port: 25585
+  uuid: 6eebb521-1844-4c3c-bf54-fb0e19870f80
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇵🇱 PL 10 - xiaohe
+  type: vless
+  server: 64.176.64.194
+  port: 25585
+  uuid: 6eebb521-1844-4c3c-bf54-fb0e19870f80
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇵🇱 PL 01 - xiaohe
+  - 🇵🇱 PL 02 - xiaohe
+  - 🇵🇱 PL 03 - xiaohe
+  - 🇵🇱 PL 04 - xiaohe
+  - 🇵🇱 PL 05 - xiaohe
+  - 🇵🇱 PL 06 - xiaohe
+  - 🇵🇱 PL 07 - xiaohe
+  - 🇵🇱 PL 08 - xiaohe
+  - 🇵🇱 PL 09 - xiaohe
+  - 🇵🇱 PL 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇵🇱 PL 01 - xiaohe
+  - 🇵🇱 PL 02 - xiaohe
+  - 🇵🇱 PL 03 - xiaohe
+  - 🇵🇱 PL 04 - xiaohe
+  - 🇵🇱 PL 05 - xiaohe
+  - 🇵🇱 PL 06 - xiaohe
+  - 🇵🇱 PL 07 - xiaohe
+  - 🇵🇱 PL 08 - xiaohe
+  - 🇵🇱 PL 09 - xiaohe
+  - 🇵🇱 PL 10 - xiaohe
 rules:
 - MATCH,PROXIES

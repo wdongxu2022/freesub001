@@ -6,32 +6,24 @@ log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
   type: vless
-  server: shop.neexbyte.ir
-  port: 8443
-  uuid: 464bc502-f963-45b6-81e3-e33d18427506
+  server: 151.241.226.201
+  port: 2053
+  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: shop.neexbyte.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shop.neexbyte.ir
+  reality-opts:
+    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
+  servername: www.apple.com
+  client-fingerprint: firefox
 - name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   type: vless
-  server: shop.neexbyte.ir
-  port: 8443
-  uuid: 464bc502-f963-45b6-81e3-e33d18427506
+  server: 144.225.65.173
+  port: 443
+  uuid: 35f8b8f4-b64d-4807-85f2-cc9a88d2ab8d
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: shop.neexbyte.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shop.neexbyte.ir
 - name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
   type: vless
   server: shop.neexbyte.ir
@@ -60,30 +52,13 @@ proxies:
   client-fingerprint: firefox
 - name: 🇹🇷 土耳其 (Turkey) 05 - xiaohe
   type: vless
-  server: 31.58.244.67
-  port: 2083
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: turkyea.vanguardia.ir
+  port: 33138
+  uuid: 960e6852-9d2b-48bb-b1cf-5cb27ec27473
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇹🇷 土耳其 (Turkey) 06 - xiaohe
-  type: vless
-  server: 151.241.226.201
-  port: 2053
-  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
-  servername: www.apple.com
-  client-fingerprint: firefox
+  servername: turkyea.vanguardia.ir
 proxy-groups:
 - name: PROXIES
   type: select
@@ -94,7 +69,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -105,6 +79,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
 rules:
 - MATCH,PROXIES
