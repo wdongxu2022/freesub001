@@ -6,22 +6,21 @@ log-level: info
 proxies:
 - name: 🇱🇻 LV 01 - xiaohe
   type: vless
-  server: 185.82.126.206
-  port: 2053
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: atomic-prase23893.my-vm.work
+  port: 8088
+  uuid: tmp_user
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /api
     headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+      Host: queuev4.vk.com
 - name: 🇱🇻 LV 02 - xiaohe
   type: vless
-  server: 185.82.126.217
-  port: 2053
+  server: 185.82.126.37
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -34,8 +33,36 @@ proxies:
       Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇱🇻 LV 03 - xiaohe
   type: vless
-  server: 185.82.126.216
+  server: 185.82.126.247
   port: 2053
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇱🇻 LV 04 - xiaohe
+  type: vless
+  server: 185.82.126.64
+  port: 2053
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇱🇻 LV 05 - xiaohe
+  type: vless
+  server: 213.21.241.85
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -54,6 +81,8 @@ proxy-groups:
   - 🇱🇻 LV 01 - xiaohe
   - 🇱🇻 LV 02 - xiaohe
   - 🇱🇻 LV 03 - xiaohe
+  - 🇱🇻 LV 04 - xiaohe
+  - 🇱🇻 LV 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -62,5 +91,7 @@ proxy-groups:
   - 🇱🇻 LV 01 - xiaohe
   - 🇱🇻 LV 02 - xiaohe
   - 🇱🇻 LV 03 - xiaohe
+  - 🇱🇻 LV 04 - xiaohe
+  - 🇱🇻 LV 05 - xiaohe
 rules:
 - MATCH,PROXIES
