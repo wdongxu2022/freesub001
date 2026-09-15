@@ -502,12 +502,12 @@ def test_single_node_xray(node_tuple):
         }],
         "outbounds": [outbound]
     }
-    
+
     with open(cfg_path, "w") as f:
         json.dump(config, f)
 
     proc = subprocess.Popen(["./xray", "-c", cfg_path], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    time.sleep(0.35)
+    time.sleep(0.2)
 
     success = False
     delay_ms = 0
@@ -519,14 +519,15 @@ def test_single_node_xray(node_tuple):
             "http": f"socks5h://127.0.0.1:{socks_port}",
             "https": f"socks5h://127.0.0.1:{socks_port}"
         }
-        resp = requests.get("https://www.google.com/generate_204", proxies=proxies, timeout=6.5)
+        # 降低超时：Google 测试 3 秒，IP 查询 2 秒
+        resp = requests.get("https://www.google.com/generate_204", proxies=proxies, timeout=3.0)
         if resp.status_code in [200, 204]:
             delay_ms = int((time.time() - start_t) * 1000)
             if 30 < delay_ms < 6300:
                 # 严格通过代理穿透向公网 API 获取真实出网 IP
                 for check_url in ["https://api.ipify.org?format=json", "https://ip.seeip.org/json"]:
                     try:
-                        ip_resp = requests.get(check_url, proxies=proxies, timeout=3.0)
+                        ip_resp = requests.get(check_url, proxies=proxies, timeout=2.0)
                         if ip_resp.status_code == 200:
                             fetched = ip_resp.json().get("ip")
                             if fetched:
@@ -535,7 +536,7 @@ def test_single_node_xray(node_tuple):
                                 break
                     except Exception:
                         pass
-                
+
                 # 若无法穿透拿到落地 IP，仅以普通可用出库，绝不打上真出口标签
                 if not exit_ip:
                     try:
@@ -564,8 +565,10 @@ def run_real_delay_test_xray(candidates):
     total = len(candidates)
     processed = 0
     last_log_time = time.time()
+    last_count_log = 0
+    start_time = time.time()
 
-    with ThreadPoolExecutor(max_workers=10) as executor:  # 降低并发到 10
+    with ThreadPoolExecutor(max_workers=5) as executor:  # 进一步降低并发到 5
         futures = {executor.submit(test_single_node_xray, item): item for item in candidates}
         for future in as_completed(futures):
             res = future.result()
@@ -573,12 +576,16 @@ def run_real_delay_test_xray(candidates):
                 alive.append(res)
             processed += 1
 
-            # 每 30 秒输出一次进度
+            # 每 10 个节点或每 20 秒输出一次进度
             now = time.time()
-            if now - last_log_time >= 30 or processed % 50 == 0:
+            if processed - last_count_log >= 10 or (now - last_log_time >= 20):
                 percent = processed / total * 100 if total > 0 else 0
-                print(f"[+] 测活进度: {processed}/{total} ({percent:.1f}%)，已确认可用: {len(alive)} 个")
+                elapsed = now - start_time
+                avg_time = elapsed / processed if processed > 0 else 0
+                eta = avg_time * (total - processed)
+                print(f"[+] 测活进度: {processed}/{total} ({percent:.1f}%)，已确认可用: {len(alive)} 个，耗时: {elapsed:.0f}s，预计剩余: {eta:.0f}s")
                 last_log_time = now
+                last_count_log = processed
 
     print(f"[+] 测活完成！真实可用落地节点总数: {len(alive)}")
     return alive
