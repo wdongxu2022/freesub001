@@ -6,7 +6,55 @@ log-level: info
 proxies:
 - name: 🇸🇦 SA 01 - xiaohe
   type: vless
-  server: 213.165.58.15
+  server: 81.208.170.142
+  port: 1500
+  uuid: sGLzG6kUwBpZd73sW0nq
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE
+  servername: www.ebay.com
+  client-fingerprint: chrome
+- name: 🇸🇦 SA 02 - xiaohe
+  type: vless
+  server: 81.208.170.142
+  port: 1500
+  uuid: e332f028-d343-5b44-8016-b3130f39e133
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE
+  servername: www.ebay.com
+  client-fingerprint: chrome
+- name: 🇸🇦 SA 03 - xiaohe
+  type: vless
+  server: 81.208.170.142
+  port: 1500
+  uuid: e332f028-d343-5b44-8016-b3130f39e133
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE
+  servername: www.ebay.com
+  client-fingerprint: chrome
+- name: 🇸🇦 SA 04 - xiaohe
+  type: vless
+  server: 81.208.170.142
+  port: 1500
+  uuid: e332f028-d343-5b44-8016-b3130f39e133
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE
+  servername: www.ebay.com
+  client-fingerprint: chrome
+- name: 🇸🇦 SA 05 - xiaohe
+  type: vless
+  server: 213.165.58.111
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -18,7 +66,19 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇸🇦 SA 02 - xiaohe
+- name: 🇸🇦 SA 06 - xiaohe
+  type: vless
+  server: 81.208.170.142
+  port: 1500
+  uuid: e332f028-d343-5b44-8016-b3130f39e133
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE
+  servername: www.ebay.com
+  client-fingerprint: chrome
+- name: 🇸🇦 SA 07 - xiaohe
   type: vless
   server: sa1.zuoai.cf
   port: 443
@@ -32,6 +92,30 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 08 - xiaohe
+  type: vless
+  server: 81.208.170.142
+  port: 1500
+  uuid: sGLzG6kUwBpZd73sW0nq
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE
+  servername: www.ebay.com
+  client-fingerprint: chrome
+- name: 🇸🇦 SA 09 - xiaohe
+  type: vless
+  server: 81.208.170.142
+  port: 1500
+  uuid: sGLzG6kUwBpZd73sW0nq
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE
+  servername: www.ebay.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -39,6 +123,13 @@ proxy-groups:
   - AUTO
   - 🇸🇦 SA 01 - xiaohe
   - 🇸🇦 SA 02 - xiaohe
+  - 🇸🇦 SA 03 - xiaohe
+  - 🇸🇦 SA 04 - xiaohe
+  - 🇸🇦 SA 05 - xiaohe
+  - 🇸🇦 SA 06 - xiaohe
+  - 🇸🇦 SA 07 - xiaohe
+  - 🇸🇦 SA 08 - xiaohe
+  - 🇸🇦 SA 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -46,5 +137,12 @@ proxy-groups:
   proxies:
   - 🇸🇦 SA 01 - xiaohe
   - 🇸🇦 SA 02 - xiaohe
+  - 🇸🇦 SA 03 - xiaohe
+  - 🇸🇦 SA 04 - xiaohe
+  - 🇸🇦 SA 05 - xiaohe
+  - 🇸🇦 SA 06 - xiaohe
+  - 🇸🇦 SA 07 - xiaohe
+  - 🇸🇦 SA 08 - xiaohe
+  - 🇸🇦 SA 09 - xiaohe
 rules:
 - MATCH,PROXIES

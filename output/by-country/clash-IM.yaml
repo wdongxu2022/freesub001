@@ -4,31 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇳 CN 01 - xiaohe
+- name: 🇮🇲 IM 01 - xiaohe
   type: vless
-  server: 103.85.25.182
-  port: 2083
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: 185.162.229.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /?ed=2560
     headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+      Host: vms.lifetime61.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇳 CN 01 - xiaohe
+  - 🇮🇲 IM 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇳 CN 01 - xiaohe
+  - 🇮🇲 IM 01 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -13,7 +13,7 @@ proxies:
   udp: true
 - name: 🇷🇴 RO 02 - xiaohe
   type: vless
-  server: 45.12.30.30
+  server: 45.85.118.50
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -23,14 +23,21 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime28.workers.dev
+      Host: vms.lifetime55.workers.dev
 - name: 🇷🇴 RO 03 - xiaohe
-  type: ss
-  server: 154.46.31.106
+  type: vless
+  server: 45.142.141.242
   port: 443
-  cipher: chacha20-ietf-poly1305
-  password: QFWzCw2uX9B9i6qAYeFBIE
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select

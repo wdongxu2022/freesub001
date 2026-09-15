@@ -6,20 +6,6 @@ log-level: info
 proxies:
 - name: 🇬🇷 GR 01 - xiaohe
   type: vless
-  server: 83.147.216.223
-  port: 4433
-  uuid: 55889b09-e315-4640-9404-e10834e7728e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇬🇷 GR 02 - xiaohe
-  type: vless
   server: 91.186.216.100
   port: 7005
   uuid: ac64aec6-85ee-4fc7-b34b-60a7bcf236ec
@@ -30,23 +16,141 @@ proxies:
     public-key: 7aICTN0hv6bhd8bYOjNZniDYSXgD20LunZ3BW6_Zyk4
   servername: play.googleapis.com
   client-fingerprint: ios
-- name: 🇬🇷 GR 03 - xiaohe
+- name: 🇬🇷 GR 02 - xiaohe
   type: vless
-  server: 91.186.217.94
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: 91.186.218.227
+  port: 4443
+  uuid: 6688ad6a-b44a-4482-9c34-d2da7a60f52a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
+  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /@Marisa_kristi
     headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+      Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
+- name: 🇬🇷 GR 03 - xiaohe
+  type: vless
+  server: 104.21.234.13
+  port: 443
+  uuid: d7d8af23-36cd-4c66-a42a-4469c177210f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: FAncY-RAIn-136e.THisISaLee.WoRkeRS.DeV
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoidDJpVVJEQndqZyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjkxLjE4Ni4yMTkuODIiXX0=?ed=2560
+    headers:
+      Host: fancy-rain-136e.thisisalee.workers.dev
 - name: 🇬🇷 GR 04 - xiaohe
   type: vless
-  server: 91.186.223.252
+  server: 104.21.234.13
+  port: 2053
+  uuid: d7d8af23-36cd-4c66-a42a-4469c177210f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faNCy-raIn-136E.tHiSiSAleE.worKeRS.Dev
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiMXZFdnZOdVFvSkNWIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTEuMTg2LjIxOS44MiJdfQ==?ed=2560
+    headers:
+      Host: fancy-rain-136e.thisisalee.workers.dev
+- name: 🇬🇷 GR 05 - xiaohe
+  type: vless
+  server: 104.21.234.13
+  port: 2053
+  uuid: d7d8af23-36cd-4c66-a42a-4469c177210f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faNCy-raIn-136E.tHiSiSAleE.worKeRS.Dev
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiMXZFdnZOdVFvSkNWIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTEuMTg2LjIxOS44MiJdfQ==?ed=2560
+    headers:
+      Host: fancy-rain-136e.thisisalee.workers.dev
+- name: 🇬🇷 GR 06 - xiaohe
+  type: vless
+  server: newswedengrrrr.azadfug.ir
+  port: 7005
+  uuid: ac64aec6-85ee-4fc7-b34b-60a7bcf236ec
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 7aICTN0hv6bhd8bYOjNZniDYSXgD20LunZ3BW6_Zyk4
+  servername: play.googleapis.com
+  client-fingerprint: ios
+- name: 🇬🇷 GR 07 - xiaohe
+  type: vless
+  server: newswedengrrrr.azadfug.ir
+  port: 7005
+  uuid: ac64aec6-85ee-4fc7-b34b-60a7bcf236ec
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 7aICTN0hv6bhd8bYOjNZniDYSXgD20LunZ3BW6_Zyk4
+  servername: play.googleapis.com
+  client-fingerprint: ios
+- name: 🇬🇷 GR 08 - xiaohe
+  type: vless
+  server: 91.186.218.227
+  port: 4443
+  uuid: e26ac108-8406-47d6-978f-be02401d0bc6
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
+- name: 🇬🇷 GR 09 - xiaohe
+  type: vless
+  server: 104.21.234.13
+  port: 2053
+  uuid: d7d8af23-36cd-4c66-a42a-4469c177210f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faNCy-raIn-136E.tHiSiSAleE.worKeRS.Dev
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiMXZFdnZOdVFvSkNWIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTEuMTg2LjIxOS44MiJdfQ==?ed=2560
+    headers:
+      Host: fancy-rain-136e.thisisalee.workers.dev
+- name: 🇬🇷 GR 10 - xiaohe
+  type: vless
+  server: 104.21.234.13
+  port: 443
+  uuid: d7d8af23-36cd-4c66-a42a-4469c177210f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: FAncY-RAIn-136e.THisISaLee.WoRkeRS.DeV
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoidDJpVVJEQndqZyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjkxLjE4Ni4yMTkuODIiXX0=?ed=2560
+    headers:
+      Host: fancy-rain-136e.thisisalee.workers.dev
+- name: 🇬🇷 GR 11 - xiaohe
+  type: vmess
+  server: zfd-boardv2.kunlun01dns.com
+  port: 16310
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇬🇷 GR 12 - xiaohe
+  type: vless
+  server: 83.147.192.46
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -67,6 +171,14 @@ proxy-groups:
   - 🇬🇷 GR 02 - xiaohe
   - 🇬🇷 GR 03 - xiaohe
   - 🇬🇷 GR 04 - xiaohe
+  - 🇬🇷 GR 05 - xiaohe
+  - 🇬🇷 GR 06 - xiaohe
+  - 🇬🇷 GR 07 - xiaohe
+  - 🇬🇷 GR 08 - xiaohe
+  - 🇬🇷 GR 09 - xiaohe
+  - 🇬🇷 GR 10 - xiaohe
+  - 🇬🇷 GR 11 - xiaohe
+  - 🇬🇷 GR 12 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -76,5 +188,13 @@ proxy-groups:
   - 🇬🇷 GR 02 - xiaohe
   - 🇬🇷 GR 03 - xiaohe
   - 🇬🇷 GR 04 - xiaohe
+  - 🇬🇷 GR 05 - xiaohe
+  - 🇬🇷 GR 06 - xiaohe
+  - 🇬🇷 GR 07 - xiaohe
+  - 🇬🇷 GR 08 - xiaohe
+  - 🇬🇷 GR 09 - xiaohe
+  - 🇬🇷 GR 10 - xiaohe
+  - 🇬🇷 GR 11 - xiaohe
+  - 🇬🇷 GR 12 - xiaohe
 rules:
 - MATCH,PROXIES

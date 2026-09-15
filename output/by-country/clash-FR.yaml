@@ -6,54 +6,7 @@ log-level: info
 proxies:
 - name: 🇫🇷 法国 (France) 01 - xiaohe
   type: vless
-  server: 54.37.136.194
-  port: 2053
-  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 02 - xiaohe
-  type: vless
-  server: 57.128.183.214
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇫🇷 法国 (France) 03 - xiaohe
-  type: vless
-  server: 46.225.82.231
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇫🇷 法国 (France) 04 - xiaohe
-  type: ss
-  server: 51.83.192.80
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
-  udp: true
-- name: 🇫🇷 法国 (France) 05 - xiaohe
-  type: vless
-  server: 51.38.82.1
+  server: gr068.techinyab.ir
   port: 443
   uuid: 9343f183-7a16-4bdd-9c65-b0c21feca40b
   udp: true
@@ -62,38 +15,85 @@ proxies:
   reality-opts:
     public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
   servername: play.google.com
-  client-fingerprint: random
-- name: 🇫🇷 法国 (France) 06 - xiaohe
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 02 - xiaohe
   type: vless
-  server: 83.147.254.245
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: 51.77.217.70
+  port: 2053
+  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇫🇷 法国 (France) 07 - xiaohe
-  type: vless
-  server: 104.21.72.47
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-ef859652a80e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: trex-panel-nubj0s.samifakor.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/TrexBridge/ef859652a80e
-    headers:
-      Host: trex-panel-nubj0s.samifakor.workers.dev
-- name: 🇫🇷 法国 (France) 08 - xiaohe
+  reality-opts:
+    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 03 - xiaohe
   type: vless
   server: 172.67.152.98
+  port: 443
+  uuid: 5934b979-e128-4c90-a600-744b97bffc8c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/Fi3kP8cNjBoo8UPv?ed=2560
+    headers:
+      Host: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
+- name: 🇫🇷 法国 (France) 04 - xiaohe
+  type: vless
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: 149.202.58.99
+- name: 🇫🇷 法国 (France) 05 - xiaohe
+  type: vless
+  server: 158.180.231.216
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 06 - xiaohe
+  type: vless
+  server: 152.228.162.19
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: 152.228.162.19
+- name: 🇫🇷 法国 (France) 07 - xiaohe
+  type: vless
+  server: 13.37.25.107
+  port: 22223
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 08 - xiaohe
+  type: vless
+  server: 104.21.32.142
   port: 443
   uuid: 5934b979-e128-4c90-a600-744b97bffc8c
   udp: true
@@ -107,101 +107,39 @@ proxies:
       Host: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
 - name: 🇫🇷 法国 (France) 09 - xiaohe
   type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  server: OV-France1.09vpn.com
+  port: 80
+  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: bab-6.site
   network: ws
   ws-opts:
-    path: /vws/
+    path: /vless/
     headers:
-      Host: 149.202.58.99
+      Host: OV-France1.09vpn.com
 - name: 🇫🇷 法国 (France) 10 - xiaohe
   type: vless
-  server: 104.21.50.143
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-5a26a30b00dc
+  server: 152.228.162.19
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
   network: ws
   ws-opts:
-    path: /stream/PANEL_ZEUS/5a26a30b00dc
+    path: /vless/
     headers:
-      Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
+      Host: ov-france1.09vpn.com
 - name: 🇫🇷 法国 (France) 11 - xiaohe
   type: vless
-  server: 45.144.28.39
-  port: 2096
-  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
+  server: 13.37.25.107
+  port: 22223
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: usejh2.neobo-tooth.ru
 - name: 🇫🇷 法国 (France) 12 - xiaohe
-  type: ss
-  server: 79.137.207.190
-  port: 2
-  cipher: chacha20-ietf-poly1305
-  password: 9ri2bpxWs4FHXRjlhTFlQQ
-  udp: true
-- name: 🇫🇷 法国 (France) 13 - xiaohe
-  type: vless
-  server: 57.128.183.59
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇫🇷 法国 (France) 14 - xiaohe
-  type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: 149.202.58.99
-- name: 🇫🇷 法国 (France) 15 - xiaohe
-  type: vless
-  server: 20.79.103.216
-  port: 2043
-  uuid: 980820ca-1720-4c32-9dc1-bc3fda7cbd08
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 16 - xiaohe
-  type: vless
-  server: gr068.techinyab.ir
-  port: 443
-  uuid: 9343f183-7a16-4bdd-9c65-b0c21feca40b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
-  servername: play.google.com
-  client-fingerprint: firefox
-- name: 🇫🇷 法国 (France) 17 - xiaohe
   type: vless
   server: 149.202.58.99
   port: 443
@@ -215,15 +153,82 @@ proxies:
     path: /vws/
     headers:
       Host: bab-6.site
-- name: 🇫🇷 法国 (France) 18 - xiaohe
+- name: 🇫🇷 法国 (France) 13 - xiaohe
   type: vless
-  server: 13.37.25.107
+  server: 13.39.182.161
+  port: 22224
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 14 - xiaohe
+  type: vless
+  server: 152.228.162.19
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: 152.228.162.19
+- name: 🇫🇷 法国 (France) 15 - xiaohe
+  type: vless
+  server: 172.67.152.98
+  port: 443
+  uuid: 5934b979-e128-4c90-a600-744b97bffc8c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 5DKTCUajb2a1jxIX7csNrmEUCg.MAhRADeMAmi.wORkeRs.dEV
+  network: ws
+  ws-opts:
+    path: /vl/Fi3kP8cNjBoo8UPv
+    headers:
+      Host: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
+- name: 🇫🇷 法国 (France) 16 - xiaohe
+  type: vless
+  server: 13.39.182.161
   port: 22223
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 17 - xiaohe
+  type: vmess
+  server: 141.95.65.9
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 18 - xiaohe
+  type: vless
+  server: 13.39.182.161
+  port: 22222
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇫🇷 法国 (France) 19 - xiaohe
+  type: vless
+  server: 152.228.162.19
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: 152.228.162.19
+- name: 🇫🇷 法国 (France) 20 - xiaohe
   type: vless
   server: 45.144.28.39
   port: 2096
@@ -235,24 +240,22 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 45.144.28.39
-- name: 🇫🇷 法国 (France) 20 - xiaohe
-  type: vless
-  server: 49.13.230.36
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+      Host: usejh2.neobo-tooth.ru
 - name: 🇫🇷 法国 (France) 21 - xiaohe
   type: vless
-  server: 57.128.176.87
+  server: 51.38.82.1
+  port: 443
+  uuid: 9343f183-7a16-4bdd-9c65-b0c21feca40b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
+  servername: play.google.com
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 22 - xiaohe
+  type: vless
+  server: 57.128.181.219
   port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
@@ -264,14 +267,15 @@ proxies:
     path: /?ed=2048
     headers:
       Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇫🇷 法国 (France) 22 - xiaohe
-  type: ss
-  server: 51.83.192.80
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
-  udp: true
 - name: 🇫🇷 法国 (France) 23 - xiaohe
+  type: vless
+  server: 13.37.25.107
+  port: 22222
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 24 - xiaohe
   type: vmess
   server: 141.95.65.9
   port: 1234
@@ -281,77 +285,15 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
-- name: 🇫🇷 法国 (France) 24 - xiaohe
-  type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: 5934b979-e128-4c90-a600-744b97bffc8c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
-  network: ws
-  ws-opts:
-    path: /vl/Fi3kP8cNjBoo8UPv?ed=2560
-    headers:
-      Host: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
+  servername: 141.95.65.9
 - name: 🇫🇷 法国 (France) 25 - xiaohe
-  type: vless
-  server: usejh2.neobo-tooth.ru
-  port: 2096
-  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
+  type: ss
+  server: 51.83.192.80
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
   udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: usejh2.neobo-tooth.ru
 - name: 🇫🇷 法国 (France) 26 - xiaohe
-  type: vless
-  server: 172.67.148.26
-  port: 2053
-  uuid: 95de071f-747c-dc07-36ac-5c0854a9e50e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: restless-boat-ebf2.moha102030.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: restless-boat-ebf2.moha102030.workers.dev
-- name: 🇫🇷 法国 (France) 27 - xiaohe
-  type: vless
-  server: 88.216.69.144
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-4d64f1370eeb
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: r5zenrelur2s.pqzdileiu8es.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/4d64f1370eeb/loc-0
-    headers:
-      Host: r5zenrelur2s.pqzdileiu8es.workers.dev
-- name: 🇫🇷 法国 (France) 28 - xiaohe
-  type: vless
-  server: 46.224.215.44
-  port: 8443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
-- name: 🇫🇷 法国 (France) 29 - xiaohe
   type: vless
   server: 172.67.206.254
   port: 443
@@ -365,32 +307,986 @@ proxies:
     path: /stream/PANEL_ZEUS/5a26a30b00dc
     headers:
       Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
+- name: 🇫🇷 法国 (France) 27 - xiaohe
+  type: vless
+  server: 51.75.170.141
+  port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇫🇷 法国 (France) 28 - xiaohe
+  type: vless
+  server: 104.21.32.142
+  port: 443
+  uuid: 5934b979-e128-4c90-a600-744b97bffc8c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 5DKTCUajb2a1jxIX7csNrmEUCg.MAhRADeMAmi.wORkeRs.dEV
+  network: ws
+  ws-opts:
+    path: /vl/Fi3kP8cNjBoo8UPv
+    headers:
+      Host: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
+- name: 🇫🇷 法国 (France) 29 - xiaohe
+  type: vless
+  server: 51.77.217.70
+  port: 2053
+  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
+  servername: www.apple.com
+  client-fingerprint: firefox
 - name: 🇫🇷 法国 (France) 30 - xiaohe
   type: vless
-  server: 104.18.47.113
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /vless/
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: ov-france1.09vpn.com
 - name: 🇫🇷 法国 (France) 31 - xiaohe
   type: vless
-  server: 104.18.46.234
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 13.39.182.161
+  port: 22223
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 32 - xiaohe
+  type: vless
+  server: 172.67.206.254
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-5a26a30b00dc
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/5a26a30b00dc
+    headers:
+      Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
+- name: 🇫🇷 法国 (France) 33 - xiaohe
+  type: vless
+  server: 54.37.136.194
+  port: 2053
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 34 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 5934b979-e128-4c90-a600-744b97bffc8c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/Fi3kP8cNjBoo8UPv?ed=2560
+    headers:
+      Host: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
+- name: 🇫🇷 法国 (France) 35 - xiaohe
+  type: vless
+  server: bab-6.site
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 36 - xiaohe
+  type: vless
+  server: 45.144.28.39
+  port: 2096
+  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: 45.144.28.39
+- name: 🇫🇷 法国 (France) 37 - xiaohe
+  type: vless
+  server: bab-6.site
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 38 - xiaohe
+  type: vmess
+  server: 152.228.145.5
+  port: 2086
+  uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 39 - xiaohe
+  type: vless
+  server: 51.38.82.1
+  port: 443
+  uuid: 9343f183-7a16-4bdd-9c65-b0c21feca40b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
+  servername: play.google.com
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 40 - xiaohe
+  type: vless
+  server: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
+  port: 443
+  uuid: 5934b979-e128-4c90-a600-744b97bffc8c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 5DKTCUajb2a1jxIX7csNrmEUCg.MAhRADeMAmi.wORkeRs.dEV
+  network: ws
+  ws-opts:
+    path: /vl/Fi3kP8cNjBoo8UPv?ed=2560
+    headers:
+      Host: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
+- name: 🇫🇷 法国 (France) 41 - xiaohe
+  type: vless
+  server: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-5a26a30b00dc
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/5a26a30b00dc
+    headers:
+      Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
+- name: 🇫🇷 法国 (France) 42 - xiaohe
+  type: vmess
+  server: 162.19.204.71
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 43 - xiaohe
+  type: vless
+  server: 13.39.182.161
+  port: 22224
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 44 - xiaohe
+  type: vmess
+  server: 162.19.204.71
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 45 - xiaohe
+  type: vless
+  server: gr068.techinyab.ir
+  port: 443
+  uuid: 9343f183-7a16-4bdd-9c65-b0c21feca40b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
+  servername: play.google.com
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 46 - xiaohe
+  type: vless
+  server: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-5a26a30b00dc
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/5a26a30b00dc
+    headers:
+      Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
+- name: 🇫🇷 法国 (France) 47 - xiaohe
+  type: vless
+  server: 172.67.203.158
+  port: 443
+  uuid: 911b84e1-d046-4fbf-bfc0-c168791115ef
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/YCNmDFbqMu7cgTzgsfEWGtBD8kR
+    headers:
+      Host: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
+- name: 🇫🇷 法国 (France) 48 - xiaohe
+  type: vless
+  server: 88.216.69.144
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-4d64f1370eeb
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: r5zenrelur2s.pqzdileiu8es.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/4d64f1370eeb/loc-0
+    headers:
+      Host: r5zenrelur2s.pqzdileiu8es.workers.dev
+- name: 🇫🇷 法国 (France) 49 - xiaohe
+  type: vless
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: 149.202.58.99
+- name: 🇫🇷 法国 (France) 50 - xiaohe
+  type: vless
+  server: 81.95.4.189
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 51 - xiaohe
+  type: vless
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-france1.09vpn.com
+- name: 🇫🇷 法国 (France) 52 - xiaohe
+  type: vless
+  server: gr068.techinyab.ir
+  port: 443
+  uuid: 9343f183-7a16-4bdd-9c65-b0c21feca40b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
+  servername: play.google.com
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 53 - xiaohe
+  type: vless
+  server: 54.37.136.194
+  port: 2053
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 54 - xiaohe
+  type: vless
+  server: 172.67.175.23
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-ef859652a80e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: trex-panel-nubj0s.samifakor.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/TrexBridge/ef859652a80e
+    headers:
+      Host: trex-panel-nubj0s.samifakor.workers.dev
+- name: 🇫🇷 法国 (France) 55 - xiaohe
+  type: vless
+  server: 13.39.182.161
+  port: 22222
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 56 - xiaohe
+  type: vless
+  server: 104.21.70.21
+  port: 8080
+  uuid: 50414e45-4c5f-5a45-5553-ef859652a80e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /stream/TrexBridge/ef859652a80e
+    headers:
+      Host: trex-panel-nubj0s.samifakor.workers.dev
+- name: 🇫🇷 法国 (France) 57 - xiaohe
+  type: vmess
+  server: 141.95.65.9
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 58 - xiaohe
+  type: vless
+  server: user.akbarihelia.ir
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-ef859652a80e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: trex-panel-nubj0s.samifakor.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/TrexBridge/ef859652a80e
+    headers:
+      Host: trex-panel-nubj0s.samifakor.workers.dev
+- name: 🇫🇷 法国 (France) 59 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: 50414e45-4c5f-5a45-5553-4d64f1370eeb
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/4d64f1370eeb/loc-0
+    headers:
+      Host: r5zenrelur2s.pqzdileiu8es.workers.dev
+- name: 🇫🇷 法国 (France) 60 - xiaohe
+  type: vless
+  server: 104.21.72.47
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-ef859652a80e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: trex-panel-nubj0s.samifakor.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/TrexBridge/ef859652a80e
+    headers:
+      Host: trex-panel-nubj0s.samifakor.workers.dev
+- name: 🇫🇷 法国 (France) 61 - xiaohe
+  type: vless
+  server: 104.21.70.21
+  port: 443
+  uuid: 5934b979-e128-4c90-a600-744b97bffc8c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/Fi3kP8cNjBoo8UPv?ed=2560
+    headers:
+      Host: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
+- name: 🇫🇷 法国 (France) 62 - xiaohe
+  type: vless
+  server: usejh2.neobo-tooth.ru
+  port: 2096
+  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: usejh2.neobo-tooth.ru
+- name: 🇫🇷 法国 (France) 63 - xiaohe
+  type: vless
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-france1.09vpn.com
+- name: 🇫🇷 法国 (France) 64 - xiaohe
+  type: vless
+  server: 35.157.240.237
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 65 - xiaohe
+  type: ss
+  server: 51.83.192.80
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: 🇫🇷 法国 (France) 66 - xiaohe
+  type: vless
+  server: 104.21.32.142
+  port: 443
+  uuid: 5934b979-e128-4c90-a600-744b97bffc8c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 5DKTCUajb2a1jxIX7csNrmEUCg.MAhRADeMAmi.wORkeRs.dEV
+  network: ws
+  ws-opts:
+    path: /vl/Fi3kP8cNjBoo8UPv
+    headers:
+      Host: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
+- name: 🇫🇷 法国 (France) 67 - xiaohe
+  type: vless
+  server: 104.21.70.21
+  port: 8080
+  uuid: 5934b979-e128-4c90-a600-744b97bffc8c
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vl/Fi3kP8cNjBoo8UPv?ed=2560
+    headers:
+      Host: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
+- name: 🇫🇷 法国 (France) 68 - xiaohe
+  type: vless
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-france1.09vpn.com
+- name: 🇫🇷 法国 (France) 69 - xiaohe
+  type: vless
+  server: 13.37.25.107
+  port: 22224
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 70 - xiaohe
+  type: vless
+  server: 13.37.25.107
+  port: 22223
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 71 - xiaohe
+  type: vless
+  server: 54.37.136.194
+  port: 2053
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 72 - xiaohe
+  type: vless
+  server: wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev
+  port: 443
+  uuid: 07821f66-cdb7-4c70-9de6-e230cffac470
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/li1khihh3dnitjyzraemspbqvu
+    headers:
+      Host: wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev
+- name: 🇫🇷 法国 (France) 73 - xiaohe
+  type: vless
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 74 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 75 - xiaohe
+  type: vless
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 76 - xiaohe
+  type: vless
+  server: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
+  port: 443
+  uuid: 5934b979-e128-4c90-a600-744b97bffc8c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 5DKTCUajb2a1jxIX7csNrmEUCg.MAhRADeMAmi.wORkeRs.dEV
+  network: ws
+  ws-opts:
+    path: /vl/Fi3kP8cNjBoo8UPv?ed=2560
+    headers:
+      Host: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
+- name: 🇫🇷 法国 (France) 77 - xiaohe
+  type: vless
+  server: 51.38.82.1
+  port: 443
+  uuid: 9343f183-7a16-4bdd-9c65-b0c21feca40b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
+  servername: play.google.com
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 78 - xiaohe
+  type: vless
+  server: 172.66.44.124
+  port: 443
+  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+  network: ws
+  ws-opts:
+    path: /pRXE5ot0RZaQSr7B
+    headers:
+      Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+- name: 🇫🇷 法国 (France) 79 - xiaohe
+  type: vless
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-france1.09vpn.com
+- name: 🇫🇷 法国 (France) 80 - xiaohe
+  type: vless
+  server: 104.21.70.21
+  port: 8080
+  uuid: 5934b979-e128-4c90-a600-744b97bffc8c
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vl/Fi3kP8cNjBoo8UPv?ed=2560
+    headers:
+      Host: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
+- name: 🇫🇷 法国 (France) 81 - xiaohe
+  type: vless
+  server: 13.37.25.107
+  port: 22223
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 82 - xiaohe
+  type: vless
+  server: 13.39.182.161
+  port: 22223
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 83 - xiaohe
+  type: vless
+  server: 13.39.182.161
+  port: 22224
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 84 - xiaohe
+  type: vless
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: OV-France1.09vpn.com
+- name: 🇫🇷 法国 (France) 85 - xiaohe
+  type: vless
+  server: 104.21.50.143
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-5a26a30b00dc
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/5a26a30b00dc
+    headers:
+      Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
+- name: 🇫🇷 法国 (France) 86 - xiaohe
+  type: vless
+  server: 51.38.82.1
+  port: 443
+  uuid: 9343f183-7a16-4bdd-9c65-b0c21feca40b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
+  servername: play.google.com
+  client-fingerprint: random
+- name: 🇫🇷 法国 (France) 87 - xiaohe
+  type: vless
+  server: 138.124.78.178
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇫🇷 法国 (France) 88 - xiaohe
+  type: vless
+  server: 13.37.25.107
+  port: 22222
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 89 - xiaohe
+  type: vless
+  server: 172.67.152.98
+  port: 443
+  uuid: 5934b979-e128-4c90-a600-744b97bffc8c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/Fi3kP8cNjBoo8UPv?ed=2560
+    headers:
+      Host: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
+- name: 🇫🇷 法国 (France) 90 - xiaohe
+  type: vless
+  server: 104.21.50.143
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-5a26a30b00dc
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/5a26a30b00dc
+    headers:
+      Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
+- name: 🇫🇷 法国 (France) 91 - xiaohe
+  type: vless
+  server: bab-6.site
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 92 - xiaohe
+  type: vless
+  server: 46.224.158.20
+  port: 8443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇫🇷 法国 (France) 93 - xiaohe
+  type: vless
+  server: 51.77.217.70
+  port: 2053
+  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 94 - xiaohe
+  type: vless
+  server: 152.228.162.19
+  port: 80
+  uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: akamaized.net
+- name: 🇫🇷 法国 (France) 95 - xiaohe
+  type: vless
+  server: 51.38.82.1
+  port: 443
+  uuid: 9343f183-7a16-4bdd-9c65-b0c21feca40b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
+  servername: play.google.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 96 - xiaohe
+  type: vless
+  server: 54.37.136.194
+  port: 2053
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 97 - xiaohe
+  type: vless
+  server: 57.128.183.3
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇫🇷 法国 (France) 98 - xiaohe
+  type: vless
+  server: 54.37.136.194
+  port: 2053
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 99 - xiaohe
+  type: vmess
+  server: 141.95.65.9
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 100 - xiaohe
+  type: vless
+  server: gr068.techinyab.ir
+  port: 443
+  uuid: 9343f183-7a16-4bdd-9c65-b0c21feca40b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
+  servername: play.google.com
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 101 - xiaohe
+  type: vless
+  server: 104.21.70.21
+  port: 443
+  uuid: 5934b979-e128-4c90-a600-744b97bffc8c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/Fi3kP8cNjBoo8UPv?ed=2560
+    headers:
+      Host: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
+- name: 🇫🇷 法国 (France) 102 - xiaohe
+  type: vless
+  server: bab-6.site
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 103 - xiaohe
+  type: vless
+  server: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-5a26a30b00dc
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/5a26a30b00dc
+    headers:
+      Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
+- name: 🇫🇷 法国 (France) 104 - xiaohe
+  type: vless
+  server: 13.39.182.161
+  port: 22222
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 105 - xiaohe
+  type: vless
+  server: 54.37.136.194
+  port: 2053
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -427,6 +1323,80 @@ proxy-groups:
   - 🇫🇷 法国 (France) 29 - xiaohe
   - 🇫🇷 法国 (France) 30 - xiaohe
   - 🇫🇷 法国 (France) 31 - xiaohe
+  - 🇫🇷 法国 (France) 32 - xiaohe
+  - 🇫🇷 法国 (France) 33 - xiaohe
+  - 🇫🇷 法国 (France) 34 - xiaohe
+  - 🇫🇷 法国 (France) 35 - xiaohe
+  - 🇫🇷 法国 (France) 36 - xiaohe
+  - 🇫🇷 法国 (France) 37 - xiaohe
+  - 🇫🇷 法国 (France) 38 - xiaohe
+  - 🇫🇷 法国 (France) 39 - xiaohe
+  - 🇫🇷 法国 (France) 40 - xiaohe
+  - 🇫🇷 法国 (France) 41 - xiaohe
+  - 🇫🇷 法国 (France) 42 - xiaohe
+  - 🇫🇷 法国 (France) 43 - xiaohe
+  - 🇫🇷 法国 (France) 44 - xiaohe
+  - 🇫🇷 法国 (France) 45 - xiaohe
+  - 🇫🇷 法国 (France) 46 - xiaohe
+  - 🇫🇷 法国 (France) 47 - xiaohe
+  - 🇫🇷 法国 (France) 48 - xiaohe
+  - 🇫🇷 法国 (France) 49 - xiaohe
+  - 🇫🇷 法国 (France) 50 - xiaohe
+  - 🇫🇷 法国 (France) 51 - xiaohe
+  - 🇫🇷 法国 (France) 52 - xiaohe
+  - 🇫🇷 法国 (France) 53 - xiaohe
+  - 🇫🇷 法国 (France) 54 - xiaohe
+  - 🇫🇷 法国 (France) 55 - xiaohe
+  - 🇫🇷 法国 (France) 56 - xiaohe
+  - 🇫🇷 法国 (France) 57 - xiaohe
+  - 🇫🇷 法国 (France) 58 - xiaohe
+  - 🇫🇷 法国 (France) 59 - xiaohe
+  - 🇫🇷 法国 (France) 60 - xiaohe
+  - 🇫🇷 法国 (France) 61 - xiaohe
+  - 🇫🇷 法国 (France) 62 - xiaohe
+  - 🇫🇷 法国 (France) 63 - xiaohe
+  - 🇫🇷 法国 (France) 64 - xiaohe
+  - 🇫🇷 法国 (France) 65 - xiaohe
+  - 🇫🇷 法国 (France) 66 - xiaohe
+  - 🇫🇷 法国 (France) 67 - xiaohe
+  - 🇫🇷 法国 (France) 68 - xiaohe
+  - 🇫🇷 法国 (France) 69 - xiaohe
+  - 🇫🇷 法国 (France) 70 - xiaohe
+  - 🇫🇷 法国 (France) 71 - xiaohe
+  - 🇫🇷 法国 (France) 72 - xiaohe
+  - 🇫🇷 法国 (France) 73 - xiaohe
+  - 🇫🇷 法国 (France) 74 - xiaohe
+  - 🇫🇷 法国 (France) 75 - xiaohe
+  - 🇫🇷 法国 (France) 76 - xiaohe
+  - 🇫🇷 法国 (France) 77 - xiaohe
+  - 🇫🇷 法国 (France) 78 - xiaohe
+  - 🇫🇷 法国 (France) 79 - xiaohe
+  - 🇫🇷 法国 (France) 80 - xiaohe
+  - 🇫🇷 法国 (France) 81 - xiaohe
+  - 🇫🇷 法国 (France) 82 - xiaohe
+  - 🇫🇷 法国 (France) 83 - xiaohe
+  - 🇫🇷 法国 (France) 84 - xiaohe
+  - 🇫🇷 法国 (France) 85 - xiaohe
+  - 🇫🇷 法国 (France) 86 - xiaohe
+  - 🇫🇷 法国 (France) 87 - xiaohe
+  - 🇫🇷 法国 (France) 88 - xiaohe
+  - 🇫🇷 法国 (France) 89 - xiaohe
+  - 🇫🇷 法国 (France) 90 - xiaohe
+  - 🇫🇷 法国 (France) 91 - xiaohe
+  - 🇫🇷 法国 (France) 92 - xiaohe
+  - 🇫🇷 法国 (France) 93 - xiaohe
+  - 🇫🇷 法国 (France) 94 - xiaohe
+  - 🇫🇷 法国 (France) 95 - xiaohe
+  - 🇫🇷 法国 (France) 96 - xiaohe
+  - 🇫🇷 法国 (France) 97 - xiaohe
+  - 🇫🇷 法国 (France) 98 - xiaohe
+  - 🇫🇷 法国 (France) 99 - xiaohe
+  - 🇫🇷 法国 (France) 100 - xiaohe
+  - 🇫🇷 法国 (France) 101 - xiaohe
+  - 🇫🇷 法国 (France) 102 - xiaohe
+  - 🇫🇷 法国 (France) 103 - xiaohe
+  - 🇫🇷 法国 (France) 104 - xiaohe
+  - 🇫🇷 法国 (France) 105 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -463,5 +1433,79 @@ proxy-groups:
   - 🇫🇷 法国 (France) 29 - xiaohe
   - 🇫🇷 法国 (France) 30 - xiaohe
   - 🇫🇷 法国 (France) 31 - xiaohe
+  - 🇫🇷 法国 (France) 32 - xiaohe
+  - 🇫🇷 法国 (France) 33 - xiaohe
+  - 🇫🇷 法国 (France) 34 - xiaohe
+  - 🇫🇷 法国 (France) 35 - xiaohe
+  - 🇫🇷 法国 (France) 36 - xiaohe
+  - 🇫🇷 法国 (France) 37 - xiaohe
+  - 🇫🇷 法国 (France) 38 - xiaohe
+  - 🇫🇷 法国 (France) 39 - xiaohe
+  - 🇫🇷 法国 (France) 40 - xiaohe
+  - 🇫🇷 法国 (France) 41 - xiaohe
+  - 🇫🇷 法国 (France) 42 - xiaohe
+  - 🇫🇷 法国 (France) 43 - xiaohe
+  - 🇫🇷 法国 (France) 44 - xiaohe
+  - 🇫🇷 法国 (France) 45 - xiaohe
+  - 🇫🇷 法国 (France) 46 - xiaohe
+  - 🇫🇷 法国 (France) 47 - xiaohe
+  - 🇫🇷 法国 (France) 48 - xiaohe
+  - 🇫🇷 法国 (France) 49 - xiaohe
+  - 🇫🇷 法国 (France) 50 - xiaohe
+  - 🇫🇷 法国 (France) 51 - xiaohe
+  - 🇫🇷 法国 (France) 52 - xiaohe
+  - 🇫🇷 法国 (France) 53 - xiaohe
+  - 🇫🇷 法国 (France) 54 - xiaohe
+  - 🇫🇷 法国 (France) 55 - xiaohe
+  - 🇫🇷 法国 (France) 56 - xiaohe
+  - 🇫🇷 法国 (France) 57 - xiaohe
+  - 🇫🇷 法国 (France) 58 - xiaohe
+  - 🇫🇷 法国 (France) 59 - xiaohe
+  - 🇫🇷 法国 (France) 60 - xiaohe
+  - 🇫🇷 法国 (France) 61 - xiaohe
+  - 🇫🇷 法国 (France) 62 - xiaohe
+  - 🇫🇷 法国 (France) 63 - xiaohe
+  - 🇫🇷 法国 (France) 64 - xiaohe
+  - 🇫🇷 法国 (France) 65 - xiaohe
+  - 🇫🇷 法国 (France) 66 - xiaohe
+  - 🇫🇷 法国 (France) 67 - xiaohe
+  - 🇫🇷 法国 (France) 68 - xiaohe
+  - 🇫🇷 法国 (France) 69 - xiaohe
+  - 🇫🇷 法国 (France) 70 - xiaohe
+  - 🇫🇷 法国 (France) 71 - xiaohe
+  - 🇫🇷 法国 (France) 72 - xiaohe
+  - 🇫🇷 法国 (France) 73 - xiaohe
+  - 🇫🇷 法国 (France) 74 - xiaohe
+  - 🇫🇷 法国 (France) 75 - xiaohe
+  - 🇫🇷 法国 (France) 76 - xiaohe
+  - 🇫🇷 法国 (France) 77 - xiaohe
+  - 🇫🇷 法国 (France) 78 - xiaohe
+  - 🇫🇷 法国 (France) 79 - xiaohe
+  - 🇫🇷 法国 (France) 80 - xiaohe
+  - 🇫🇷 法国 (France) 81 - xiaohe
+  - 🇫🇷 法国 (France) 82 - xiaohe
+  - 🇫🇷 法国 (France) 83 - xiaohe
+  - 🇫🇷 法国 (France) 84 - xiaohe
+  - 🇫🇷 法国 (France) 85 - xiaohe
+  - 🇫🇷 法国 (France) 86 - xiaohe
+  - 🇫🇷 法国 (France) 87 - xiaohe
+  - 🇫🇷 法国 (France) 88 - xiaohe
+  - 🇫🇷 法国 (France) 89 - xiaohe
+  - 🇫🇷 法国 (France) 90 - xiaohe
+  - 🇫🇷 法国 (France) 91 - xiaohe
+  - 🇫🇷 法国 (France) 92 - xiaohe
+  - 🇫🇷 法国 (France) 93 - xiaohe
+  - 🇫🇷 法国 (France) 94 - xiaohe
+  - 🇫🇷 法国 (France) 95 - xiaohe
+  - 🇫🇷 法国 (France) 96 - xiaohe
+  - 🇫🇷 法国 (France) 97 - xiaohe
+  - 🇫🇷 法国 (France) 98 - xiaohe
+  - 🇫🇷 法国 (France) 99 - xiaohe
+  - 🇫🇷 法国 (France) 100 - xiaohe
+  - 🇫🇷 法国 (France) 101 - xiaohe
+  - 🇫🇷 法国 (France) 102 - xiaohe
+  - 🇫🇷 法国 (France) 103 - xiaohe
+  - 🇫🇷 法国 (France) 104 - xiaohe
+  - 🇫🇷 法国 (France) 105 - xiaohe
 rules:
 - MATCH,PROXIES

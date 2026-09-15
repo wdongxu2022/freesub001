@@ -4,31 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇾 BY 01 - xiaohe
+- name: 🇯🇴 JO 01 - xiaohe
   type: vless
-  server: 144.31.129.7
-  port: 443
-  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  server: 62.72.166.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: tight-flower-bc60.30044201-759.workers.dev
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: tight-flower-bc60.30044201-759.workers.dev
+      Host: vms.lifetime40.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇾 BY 01 - xiaohe
+  - 🇯🇴 JO 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇾 BY 01 - xiaohe
+  - 🇯🇴 JO 01 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇱🇺 LU 01 - xiaohe",
+        "🇱🇺 LU 02 - xiaohe",
+        "🇱🇺 LU 03 - xiaohe",
+        "🇱🇺 LU 04 - xiaohe",
+        "🇱🇺 LU 05 - xiaohe",
+        "🇱🇺 LU 06 - xiaohe",
+        "🇱🇺 LU 07 - xiaohe"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇱🇺 LU 01 - xiaohe",
+        "🇱🇺 LU 02 - xiaohe",
+        "🇱🇺 LU 03 - xiaohe",
+        "🇱🇺 LU 04 - xiaohe",
+        "🇱🇺 LU 05 - xiaohe",
+        "🇱🇺 LU 06 - xiaohe",
+        "🇱🇺 LU 07 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
