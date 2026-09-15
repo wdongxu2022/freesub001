@@ -561,14 +561,25 @@ def test_single_node_xray(node_tuple):
 def run_real_delay_test_xray(candidates):
     print(f"[*] 启动 Xray 真实双向网络通道测活，候选节点数: {len(candidates)}...")
     alive = []
-    with ThreadPoolExecutor(max_workers=25) as executor:
+    total = len(candidates)
+    processed = 0
+    last_log_time = time.time()
+
+    with ThreadPoolExecutor(max_workers=10) as executor:  # 降低并发到 10
         futures = {executor.submit(test_single_node_xray, item): item for item in candidates}
         for future in as_completed(futures):
             res = future.result()
             if res:
                 alive.append(res)
-                if len(alive) % 20 == 0:
-                    print(f"[+] 当前已确认真实通畅节点: {len(alive)} 个")
+            processed += 1
+
+            # 每 30 秒输出一次进度
+            now = time.time()
+            if now - last_log_time >= 30 or processed % 50 == 0:
+                percent = processed / total * 100 if total > 0 else 0
+                print(f"[+] 测活进度: {processed}/{total} ({percent:.1f}%)，已确认可用: {len(alive)} 个")
+                last_log_time = now
+
     print(f"[+] 测活完成！真实可用落地节点总数: {len(alive)}")
     return alive
 
@@ -660,12 +671,24 @@ def classify_and_filter(alive_nodes):
         }
 
     print("[*] 正在解析真实出口国家并鉴定住宅属性...")
-    with ThreadPoolExecutor(max_workers=30) as executor:
+    total = len(alive_nodes)
+    processed = 0
+    last_log_time = time.time()
+
+    with ThreadPoolExecutor(max_workers=10) as executor:  # 降低并发到 10
         futures = [executor.submit(classify_item, item) for item in alive_nodes]
         for f in as_completed(futures):
             res = f.result()
             if res:
                 verified.append(res)
+            processed += 1
+
+            # 每 30 秒输出一次进度
+            now = time.time()
+            if now - last_log_time >= 30 or processed % 50 == 0:
+                percent = processed / total * 100 if total > 0 else 0
+                print(f"[+] 分类进度: {processed}/{total} ({percent:.1f}%)")
+                last_log_time = now
 
     country_reader.close()
     asn_reader.close()
