@@ -6,8 +6,48 @@ log-level: info
 proxies:
 - name: 🇬🇷 GR 01 - xiaohe
   type: vless
-  server: 83.147.192.198
-  port: 8443
+  server: 83.147.216.223
+  port: 4433
+  uuid: 55889b09-e315-4640-9404-e10834e7728e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
+- name: 🇬🇷 GR 02 - xiaohe
+  type: vless
+  server: 91.186.216.100
+  port: 7005
+  uuid: ac64aec6-85ee-4fc7-b34b-60a7bcf236ec
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 7aICTN0hv6bhd8bYOjNZniDYSXgD20LunZ3BW6_Zyk4
+  servername: play.googleapis.com
+  client-fingerprint: ios
+- name: 🇬🇷 GR 03 - xiaohe
+  type: vless
+  server: 91.186.217.94
+  port: 443
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇬🇷 GR 04 - xiaohe
+  type: vless
+  server: 91.186.223.252
+  port: 443
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -24,11 +64,17 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇬🇷 GR 01 - xiaohe
+  - 🇬🇷 GR 02 - xiaohe
+  - 🇬🇷 GR 03 - xiaohe
+  - 🇬🇷 GR 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇬🇷 GR 01 - xiaohe
+  - 🇬🇷 GR 02 - xiaohe
+  - 🇬🇷 GR 03 - xiaohe
+  - 🇬🇷 GR 04 - xiaohe
 rules:
 - MATCH,PROXIES
