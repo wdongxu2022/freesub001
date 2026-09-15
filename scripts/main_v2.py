@@ -19,28 +19,26 @@ from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 SOURCE_URLS = [
-    "https://wild-cloud-9893.heleimail.workers.dev",
-    "https://github.com/Au1rxx/free-vpn-subscriptions/raw/main/output/by-country/v2ray-base64-TW.txt",
-    "https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/main/configs/all.txt",
-    "https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/base64/mix",
-    "https://raw.githubusercontent.com/10ium/telegram-configs-collector/main/protocols/hysteria",
-    "https://raw.githubusercontent.com/10ium/telegram-configs-collector/main/security/tls",
-    "https://github.com/Au1rxx/free-vpn-subscriptions/raw/main/output/v2ray-base64.txt",
-    "https://raw.githubusercontent.com/freefq/free/master/v2",
-    "https://open.heleimail.workers.dev/",
-    "https://www.ermao.net/sub/v2ray/ermao.net",
-    "https://tight-flower-bc60.30044201-759.workers.dev/5d8782e4-cbf3-4b3f-936b-a83ffc01d430/sub?name=CFBox",
-
-    # 新增优质源 - 2026-09-15
-    "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/verified/configs.txt",  # 已测活验证 (~1880节点)
-    "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/all.txt",  # 全量 (~25082节点)
-    "https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/main/sub/vless.txt",  # vless协议 (~9557节点)
-    "https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/main/sub/vmess.txt",  # vmess协议 (~1482节点)
-    "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/sub",  # 每日更新 (~1081节点)
-    "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/nodes.txt",  # 每小时更新 (~13节点)
-    "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/super-sub.txt",  # 精选 (~138节点)
-    "https://raw.githubusercontent.com/VovaplusEXP/p-configs/main/Splitted-By-Protocol-Base64/vless.txt",  # vless (~359节点)
-    ]
+    # 核心可靠源 - 精选 20 个
+    "https://raw.githubusercontent.com/freefq/free/master/v2",  # 国内常用
+    "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/verified/configs.txt",  # 已测活验证
+    "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/sub",  # 每日更新
+    "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/super-sub.txt",  # 精选
+    "https://raw.githubusercontent.com/VovaplusEXP/p-configs/main/Splitted-By-Protocol-Base64/vless.txt",  # vless
+    "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/nodes.txt",  # 小时更新
+    "https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/main/configs/all.txt",  # 印度节点
+    "https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/base64/mix",  # Telegram
+    "https://raw.githubusercontent.com/10ium/telegram-configs-collector/main/protocols/hysteria",  # Hysteria
+    "https://raw.githubusercontent.com/10ium/telegram-configs-collector/main/security/tls",  # TLS
+    "https://github.com/Au1rxx/free-vpn-subscriptions/raw/main/output/by-country/v2ray-base64-TW.txt",  # 台湾
+    "https://github.com/Au1rxx/free-vpn-subscriptions/raw/main/output/v2ray-base64.txt",  # 全量
+    "https://wild-cloud-9893.heleimail.workers.dev",  # Cloudflare Worker
+    "https://open.heleimail.workers.dev/",  # Cloudflare Worker
+    "https://www.ermao.net/sub/v2ray/ermao.net",  # 二层子
+    "https://tight-flower-bc60.30044201-759.workers.dev/5d8782e4-cbf3-4b3f-936b-a83ffc01d430/sub?name=CFBox",  # CFBox
+    "https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/main/sub/vmess.txt",  # VMess
+    "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/all.txt",  # 全量
+]
 
 OUTPUT_DIR = "output"
 COUNTRY_DIR = os.path.join(OUTPUT_DIR, "by-country")
@@ -519,8 +517,8 @@ def test_single_node_xray(node_tuple):
             "http": f"socks5h://127.0.0.1:{socks_port}",
             "https": f"socks5h://127.0.0.1:{socks_port}"
         }
-        # 降低超时：Google 测试 3 秒，IP 查询 2 秒
-        resp = requests.get("https://www.google.com/generate_204", proxies=proxies, timeout=3.0)
+        # 降低超时：Google 测试 2 秒，IP 查询 2 秒
+        resp = requests.get("https://www.google.com/generate_204", proxies=proxies, timeout=2.0)
         if resp.status_code in [200, 204]:
             delay_ms = int((time.time() - start_t) * 1000)
             if 30 < delay_ms < 6300:
@@ -568,7 +566,7 @@ def run_real_delay_test_xray(candidates):
     last_count_log = 0
     start_time = time.time()
 
-    with ThreadPoolExecutor(max_workers=5) as executor:  # 进一步降低并发到 5
+    with ThreadPoolExecutor(max_workers=3) as executor:  # 降低并发到 3
         futures = {executor.submit(test_single_node_xray, item): item for item in candidates}
         for future in as_completed(futures):
             res = future.result()
