@@ -4,30 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇴 RO 01 - xiaohe
-  type: ss
-  server: bogging-eyeteeth-fly.freesocks.work
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: QFWzCw2uX9B9i6qAYeFBIE
-  udp: true
-- name: 🇷🇴 RO 02 - xiaohe
+- name: 🇱🇻 LV 01 - xiaohe
   type: vless
-  server: 45.85.118.50
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 185.82.126.206
+  port: 2053
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: tight-flower-bc60.30044201-759.workers.dev
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: vms.lifetime55.workers.dev
-- name: 🇷🇴 RO 03 - xiaohe
+      Host: tight-flower-bc60.30044201-759.workers.dev
+- name: 🇱🇻 LV 02 - xiaohe
   type: vless
-  server: 45.142.141.242
-  port: 443
+  server: 185.82.126.9
+  port: 2053
   uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
@@ -43,16 +37,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇷🇴 RO 01 - xiaohe
-  - 🇷🇴 RO 02 - xiaohe
-  - 🇷🇴 RO 03 - xiaohe
+  - 🇱🇻 LV 01 - xiaohe
+  - 🇱🇻 LV 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇴 RO 01 - xiaohe
-  - 🇷🇴 RO 02 - xiaohe
-  - 🇷🇴 RO 03 - xiaohe
+  - 🇱🇻 LV 01 - xiaohe
+  - 🇱🇻 LV 02 - xiaohe
 rules:
 - MATCH,PROXIES

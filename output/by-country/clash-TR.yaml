@@ -20,6 +20,34 @@ proxies:
       Host: shop.neexbyte.ir
 - name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   type: vless
+  server: shop.neexbyte.ir
+  port: 8443
+  uuid: 464bc502-f963-45b6-81e3-e33d18427506
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shop.neexbyte.ir
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shop.neexbyte.ir
+- name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
+  type: vless
+  server: shop.neexbyte.ir
+  port: 8443
+  uuid: 464bc502-f963-45b6-81e3-e33d18427506
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shop.neexbyte.ir
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shop.neexbyte.ir
+- name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
+  type: vless
   server: 151.241.226.201
   port: 2053
   uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
@@ -30,48 +58,20 @@ proxies:
     public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
   servername: www.apple.com
   client-fingerprint: firefox
-- name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: d7282b41-1f2a-47bb-8593-f464fd6b6d78
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: global.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: BechBad.global.ssl.fastly.net
-- name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
-  type: vless
-  server: 172.67.151.109
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-635698a6bb9c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jdzit4e4urks.xwzohsebujps.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/635698a6bb9c/loc-0
-    headers:
-      Host: jdzit4e4urks.xwzohsebujps.workers.dev
 - name: 🇹🇷 土耳其 (Turkey) 05 - xiaohe
   type: vless
-  server: 172.67.151.109
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-635698a6bb9c
+  server: 31.58.244.67
+  port: 2083
+  uuid: 5d8782e4-cbf3-4b3f-936b-a83ffc01d430
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jdzit4e4urks.xwzohsebujps.workers.dev
+  servername: tight-flower-bc60.30044201-759.workers.dev
   network: ws
   ws-opts:
-    path: /stream/PANEL_ZEUS/635698a6bb9c/loc-0
+    path: /?ed=2048
     headers:
-      Host: jdzit4e4urks.xwzohsebujps.workers.dev
+      Host: tight-flower-bc60.30044201-759.workers.dev
 - name: 🇹🇷 土耳其 (Turkey) 06 - xiaohe
   type: vless
   server: 151.241.226.201
@@ -84,137 +84,6 @@ proxies:
     public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
   servername: www.apple.com
   client-fingerprint: firefox
-- name: 🇹🇷 土耳其 (Turkey) 07 - xiaohe
-  type: vless
-  server: shop.neexbyte.ir
-  port: 8443
-  uuid: 464bc502-f963-45b6-81e3-e33d18427506
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shop.neexbyte.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shop.neexbyte.ir
-- name: 🇹🇷 土耳其 (Turkey) 08 - xiaohe
-  type: vless
-  server: 172.67.151.109
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-635698a6bb9c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jdzit4e4urks.xwzohsebujps.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/635698a6bb9c/loc-0
-    headers:
-      Host: jdzit4e4urks.xwzohsebujps.workers.dev
-- name: 🇹🇷 土耳其 (Turkey) 09 - xiaohe
-  type: vless
-  server: 104.17.147.22
-  port: 443
-  uuid: 5ef04ae8-8d7c-0a66-13f4-6e3f00000003
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: relay.lunetcloud.ir
-  network: ws
-  ws-opts:
-    path: /lunetnetwork
-    headers:
-      Host: relay.lunetcloud.ir
-- name: 🇹🇷 土耳其 (Turkey) 10 - xiaohe
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: d7282b41-1f2a-47bb-8593-f464fd6b6d78
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: global.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: BechBad.global.ssl.fastly.net
-- name: 🇹🇷 土耳其 (Turkey) 11 - xiaohe
-  type: vless
-  server: shop.neexbyte.ir
-  port: 8443
-  uuid: 464bc502-f963-45b6-81e3-e33d18427506
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shop.neexbyte.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shop.neexbyte.ir
-- name: 🇹🇷 土耳其 (Turkey) 12 - xiaohe
-  type: ss
-  server: 188.132.174.236
-  port: 1080
-  cipher: chacha20-ietf-poly1305
-  password: rSeYcig_XBy8q3k33NpK3A
-  udp: true
-- name: 🇹🇷 土耳其 (Turkey) 13 - xiaohe
-  type: vless
-  server: shop.neexbyte.ir
-  port: 8443
-  uuid: 464bc502-f963-45b6-81e3-e33d18427506
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shop.neexbyte.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shop.neexbyte.ir
-- name: 🇹🇷 土耳其 (Turkey) 14 - xiaohe
-  type: vless
-  server: 151.241.226.201
-  port: 2053
-  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
-  servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇹🇷 土耳其 (Turkey) 15 - xiaohe
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: d7282b41-1f2a-47bb-8593-f464fd6b6d78
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: global.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: BechBad.global.ssl.fastly.net
-- name: 🇹🇷 土耳其 (Turkey) 16 - xiaohe
-  type: vless
-  server: 104.17.147.22
-  port: 443
-  uuid: 5ef04ae8-8d7c-0a66-13f4-6e3f00000003
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: relay.lunetcloud.ir
-  network: ws
-  ws-opts:
-    path: /lunetnetwork
-    headers:
-      Host: relay.lunetcloud.ir
 proxy-groups:
 - name: PROXIES
   type: select
@@ -226,16 +95,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 07 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 08 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 09 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 10 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 11 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 12 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 13 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 14 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 15 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 16 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -247,15 +106,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 07 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 08 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 09 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 10 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 11 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 12 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 13 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 14 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 15 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 16 - xiaohe
 rules:
 - MATCH,PROXIES
