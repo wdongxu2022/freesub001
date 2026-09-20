@@ -54,9 +54,9 @@
     {
       "type": "vless",
       "tag": "proxy-1",
-      "server": "109.248.170.119",
-      "server_port": 13447,
-      "uuid": "b573cefb-7bc7-4a42-b407-b8b534e66773",
+      "server": "31.58.181.88",
+      "server_port": 8443,
+      "uuid": "f62a8f0e-f8db-48a6-8f52-84922aa63368",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -65,19 +65,8 @@
     {
       "type": "vless",
       "tag": "proxy-2",
-      "server": "31.58.50.200",
-      "server_port": 8443,
-      "uuid": "1925051c-083e-401a-8f53-de39d83bfc94",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-3",
-      "server": "103.160.63.199",
-      "server_port": 31348,
+      "server": "web.turbooserver.net.tr",
+      "server_port": 2087,
       "uuid": "",
       "network": "tcp",
       "tls": {
@@ -86,9 +75,20 @@
     },
     {
       "type": "vless",
+      "tag": "proxy-3",
+      "server": "57.129.130.57",
+      "server_port": 52014,
+      "uuid": "5cf5ed7b-6032-44a6-b008-f33fbc82530a",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
       "tag": "proxy-4",
-      "server": "161.118.210.227",
-      "server_port": 56927,
+      "server": "104.25.82.149",
+      "server_port": 443,
       "uuid": "",
       "network": "tcp",
       "tls": {
@@ -98,28 +98,6 @@
     {
       "type": "vless",
       "tag": "proxy-5",
-      "server": "107.181.151.39",
-      "server_port": 443,
-      "uuid": "4d017db2-7655-4276-9557-e2ec25b04ee7",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-6",
-      "server": "31.58.50.200",
-      "server_port": 8443,
-      "uuid": "d85ce6b7-8b41-495a-9ae3-9b85368d2988",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-7",
       "server": "unknown",
       "server_port": 0,
       "uuid": "",
@@ -130,10 +108,32 @@
     },
     {
       "type": "vless",
+      "tag": "proxy-6",
+      "server": "129.151.91.246",
+      "server_port": 61312,
+      "uuid": "",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-7",
+      "server": "128.241.25.3",
+      "server_port": 30021,
+      "uuid": "9c70dde1-5f1c-41c4-ac4d-4e740be0df08",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
       "tag": "proxy-8",
-      "server": "server.slavkiti.monster",
-      "server_port": 443,
-      "uuid": "4d017db2-7655-4276-9557-e2ec25b04ee7",
+      "server": "36.224.147.65",
+      "server_port": 50099,
+      "uuid": "",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -142,9 +142,9 @@
     {
       "type": "vless",
       "tag": "proxy-9",
-      "server": "176.65.151.212",
-      "server_port": 36937,
-      "uuid": "",
+      "server": "31.58.50.200",
+      "server_port": 8443,
+      "uuid": "beed721d-73b6-47fc-a7b0-cac10e624b98",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -175,9 +175,9 @@
     {
       "type": "vless",
       "tag": "proxy-12",
-      "server": "ahbpanel-production-1919.up.railway.app",
-      "server_port": 443,
-      "uuid": "1f1268ea-a3e1-5efc-3674-90ece29e45d5",
+      "server": "unknown",
+      "server_port": 0,
+      "uuid": "",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -186,9 +186,9 @@
     {
       "type": "vless",
       "tag": "proxy-13",
-      "server": "92.5.228.170",
-      "server_port": 45819,
-      "uuid": "",
+      "server": "104.17.147.22",
+      "server_port": 2052,
+      "uuid": "401d950d-4f5c-45c7-bf44-8b69acf35f6f",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -197,9 +197,9 @@
     {
       "type": "vless",
       "tag": "proxy-14",
-      "server": "152.53.1.40",
+      "server": "medium.com",
       "server_port": 443,
-      "uuid": "edde565e-41f5-400e-84ea-7b87a3e84488",
+      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -208,9 +208,9 @@
     {
       "type": "vless",
       "tag": "proxy-15",
-      "server": "rvg-production-798c.up.railway.app",
+      "server": "87.117.234.19",
       "server_port": 443,
-      "uuid": "c9c5e676-278f-7bf7-5436-dcf6e3210667",
+      "uuid": "4d583b2c-2f5a-47d0-8181-e95217fe8cd9",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -219,9 +219,9 @@
     {
       "type": "vless",
       "tag": "proxy-16",
-      "server": "unknown",
-      "server_port": 0,
-      "uuid": "",
+      "server": "ccs2g.pai50288.uk",
+      "server_port": 443,
+      "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -230,8 +230,8 @@
     {
       "type": "vless",
       "tag": "proxy-17",
-      "server": "unknown",
-      "server_port": 0,
+      "server": "193.29.139.151",
+      "server_port": 8080,
       "uuid": "",
       "network": "tcp",
       "tls": {
@@ -241,9 +241,9 @@
     {
       "type": "vless",
       "tag": "proxy-18",
-      "server": "31.58.50.200",
-      "server_port": 8443,
-      "uuid": "4a239f83-479c-4790-a9c7-fe7ddd483a4c",
+      "server": "95.85.224.51",
+      "server_port": 443,
+      "uuid": "342ab7e4-5a89-0001-8809-304120d4aa83",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -252,9 +252,9 @@
     {
       "type": "vless",
       "tag": "proxy-19",
-      "server": "167.88.63.79",
-      "server_port": 8119,
-      "uuid": "",
+      "server": "chatgpt.com",
+      "server_port": 443,
+      "uuid": "11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -263,9 +263,9 @@
     {
       "type": "vless",
       "tag": "proxy-20",
-      "server": "172.64.53.55",
-      "server_port": 2086,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "server": "unknown",
+      "server_port": 0,
+      "uuid": "",
       "network": "tcp",
       "tls": {
         "enabled": true
