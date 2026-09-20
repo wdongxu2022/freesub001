@@ -54,9 +54,9 @@
     {
       "type": "vless",
       "tag": "proxy-1",
-      "server": "31.58.181.88",
-      "server_port": 8443,
-      "uuid": "f62a8f0e-f8db-48a6-8f52-84922aa63368",
+      "server": "autodiscover.fuzzyaytor.cyou",
+      "server_port": 42982,
+      "uuid": "",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -65,8 +65,8 @@
     {
       "type": "vless",
       "tag": "proxy-2",
-      "server": "web.turbooserver.net.tr",
-      "server_port": 2087,
+      "server": "unknown",
+      "server_port": 0,
       "uuid": "",
       "network": "tcp",
       "tls": {
@@ -76,9 +76,9 @@
     {
       "type": "vless",
       "tag": "proxy-3",
-      "server": "57.129.130.57",
-      "server_port": 52014,
-      "uuid": "5cf5ed7b-6032-44a6-b008-f33fbc82530a",
+      "server": "104.16.10.10",
+      "server_port": 443,
+      "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -87,9 +87,9 @@
     {
       "type": "vless",
       "tag": "proxy-4",
-      "server": "104.25.82.149",
+      "server": "104.16.10.185",
       "server_port": 443,
-      "uuid": "",
+      "uuid": "c4edb87e-8544-4fa4-bd1c-b0cda9a34b46",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -98,9 +98,9 @@
     {
       "type": "vless",
       "tag": "proxy-5",
-      "server": "unknown",
-      "server_port": 0,
-      "uuid": "",
+      "server": "104.21.6.186",
+      "server_port": 8443,
+      "uuid": "c07346da-5799-40c1-9d5a-5ea3ca3ac9e2",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -109,8 +109,8 @@
     {
       "type": "vless",
       "tag": "proxy-6",
-      "server": "129.151.91.246",
-      "server_port": 61312,
+      "server": "unknown",
+      "server_port": 0,
       "uuid": "",
       "network": "tcp",
       "tls": {
@@ -120,9 +120,9 @@
     {
       "type": "vless",
       "tag": "proxy-7",
-      "server": "128.241.25.3",
-      "server_port": 30021,
-      "uuid": "9c70dde1-5f1c-41c4-ac4d-4e740be0df08",
+      "server": "130.250.137.171",
+      "server_port": 443,
+      "uuid": "",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -131,8 +131,8 @@
     {
       "type": "vless",
       "tag": "proxy-8",
-      "server": "36.224.147.65",
-      "server_port": 50099,
+      "server": "129.146.126.143",
+      "server_port": 50356,
       "uuid": "",
       "network": "tcp",
       "tls": {
@@ -142,19 +142,8 @@
     {
       "type": "vless",
       "tag": "proxy-9",
-      "server": "31.58.50.200",
-      "server_port": 8443,
-      "uuid": "beed721d-73b6-47fc-a7b0-cac10e624b98",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-10",
-      "server": "unknown",
-      "server_port": 0,
+      "server": "3.67.113.118",
+      "server_port": 810,
       "uuid": "",
       "network": "tcp",
       "tls": {
@@ -163,9 +152,20 @@
     },
     {
       "type": "vless",
+      "tag": "proxy-10",
+      "server": "sg1.miyazono-kaori.com",
+      "server_port": 443,
+      "uuid": "355337bc-90f9-4469-8d9a-1e2be6a7a055",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
       "tag": "proxy-11",
-      "server": "unknown",
-      "server_port": 0,
+      "server": "185.117.119.8",
+      "server_port": 1080,
       "uuid": "",
       "network": "tcp",
       "tls": {
@@ -186,9 +186,9 @@
     {
       "type": "vless",
       "tag": "proxy-13",
-      "server": "104.17.147.22",
-      "server_port": 2052,
-      "uuid": "401d950d-4f5c-45c7-bf44-8b69acf35f6f",
+      "server": "x4g-production-1c57.up.railway.app",
+      "server_port": 443,
+      "uuid": "96dc234e-4809-39c4-dc20-aec74bdbc30e",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -197,9 +197,9 @@
     {
       "type": "vless",
       "tag": "proxy-14",
-      "server": "medium.com",
-      "server_port": 443,
-      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
+      "server": "c9v1mt2xe451.contigolibre.com",
+      "server_port": 21847,
+      "uuid": "286c065e-566f-438c-b7c4-9c361baf96aa",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -208,9 +208,9 @@
     {
       "type": "vless",
       "tag": "proxy-15",
-      "server": "87.117.234.19",
-      "server_port": 443,
-      "uuid": "4d583b2c-2f5a-47d0-8181-e95217fe8cd9",
+      "server": "193.168.175.56",
+      "server_port": 14605,
+      "uuid": "",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -219,9 +219,9 @@
     {
       "type": "vless",
       "tag": "proxy-16",
-      "server": "ccs2g.pai50288.uk",
-      "server_port": 443,
-      "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
+      "server": "unknown",
+      "server_port": 0,
+      "uuid": "",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -230,8 +230,8 @@
     {
       "type": "vless",
       "tag": "proxy-17",
-      "server": "193.29.139.151",
-      "server_port": 8080,
+      "server": "unknown",
+      "server_port": 0,
       "uuid": "",
       "network": "tcp",
       "tls": {
@@ -241,9 +241,9 @@
     {
       "type": "vless",
       "tag": "proxy-18",
-      "server": "95.85.224.51",
+      "server": "47.83.173.110",
       "server_port": 443,
-      "uuid": "342ab7e4-5a89-0001-8809-304120d4aa83",
+      "uuid": "bca6f15f-89db-40e2-a955-19d084229234",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -252,9 +252,9 @@
     {
       "type": "vless",
       "tag": "proxy-19",
-      "server": "chatgpt.com",
-      "server_port": 443,
-      "uuid": "11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf",
+      "server": "unknown",
+      "server_port": 0,
+      "uuid": "",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -263,9 +263,9 @@
     {
       "type": "vless",
       "tag": "proxy-20",
-      "server": "unknown",
-      "server_port": 0,
-      "uuid": "",
+      "server": "104.16.10.104",
+      "server_port": 443,
+      "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
       "network": "tcp",
       "tls": {
         "enabled": true
