@@ -54,9 +54,9 @@
     {
       "type": "vless",
       "tag": "proxy-1",
-      "server": "unknown",
-      "server_port": 0,
-      "uuid": "",
+      "server": "31.58.50.200",
+      "server_port": 8443,
+      "uuid": "813a5411-08ac-4346-888a-992f35acbf89",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -65,9 +65,9 @@
     {
       "type": "vless",
       "tag": "proxy-2",
-      "server": "in-oriole.rooster465.autos",
-      "server_port": 443,
-      "uuid": "",
+      "server": "31.58.50.200",
+      "server_port": 8443,
+      "uuid": "431acd7d-ef6c-4d2b-b471-bcdddca8050c",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -87,9 +87,9 @@
     {
       "type": "vless",
       "tag": "proxy-4",
-      "server": "104.17.21.137",
-      "server_port": 8880,
-      "uuid": "30e4c878-15ca-4f53-ab32-04c60ecd3f31",
+      "server": "31.58.181.88",
+      "server_port": 8443,
+      "uuid": "21f56e7a-91cb-4639-b68a-0c96edf82805",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -98,9 +98,9 @@
     {
       "type": "vless",
       "tag": "proxy-5",
-      "server": "128.241.25.11",
-      "server_port": 30021,
-      "uuid": "339cda3d-79a5-4d37-8ad8-eddc130c992a",
+      "server": "104.21.62.195",
+      "server_port": 443,
+      "uuid": "cb53f904-c979-454f-bf43-621990008148",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -109,9 +109,9 @@
     {
       "type": "vless",
       "tag": "proxy-6",
-      "server": "104.21.70.21",
-      "server_port": 8080,
-      "uuid": "a9fb0f8c-89e9-44ee-9574-a310c5bd259c",
+      "server": "3.39.4.109",
+      "server_port": 13672,
+      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -120,9 +120,9 @@
     {
       "type": "vless",
       "tag": "proxy-7",
-      "server": "149.248.79.235",
-      "server_port": 17301,
-      "uuid": "3571b127-4b3b-4c01-8249-1684daf586b5",
+      "server": "31.58.50.200",
+      "server_port": 8443,
+      "uuid": "60ed7378-3d79-45af-a13f-2983dd2b524d",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -131,9 +131,9 @@
     {
       "type": "vless",
       "tag": "proxy-8",
-      "server": "38.68.134.48",
-      "server_port": 2375,
-      "uuid": "",
+      "server": "104.21.12.116",
+      "server_port": 8880,
+      "uuid": "fba6d1fd-0dab-428d-ae71-0e64c73a6060",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -142,9 +142,9 @@
     {
       "type": "vless",
       "tag": "proxy-9",
-      "server": "94.156.250.148",
-      "server_port": 7001,
-      "uuid": "",
+      "server": "212.46.33.5",
+      "server_port": 443,
+      "uuid": "71091100-c6ed-41fa-84ac-acf7ff9eeb7f",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -153,9 +153,9 @@
     {
       "type": "vless",
       "tag": "proxy-10",
-      "server": "51.79.29.205",
-      "server_port": 10103,
-      "uuid": "f6c29358-4b06-445a-bf01-360a418aca1e",
+      "server": "31.58.50.200",
+      "server_port": 8443,
+      "uuid": "a7ab9b00-42a1-4943-abba-096590d1edd0",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -164,9 +164,9 @@
     {
       "type": "vless",
       "tag": "proxy-11",
-      "server": "172.64.80.1",
-      "server_port": 8880,
-      "uuid": "84270e8b-567e-45c6-b2f2-56ec9a67ae1e",
+      "server": "196.196.206.37",
+      "server_port": 443,
+      "uuid": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -186,29 +186,7 @@
     {
       "type": "vless",
       "tag": "proxy-13",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "uuid": "0926b50d-3a90-18dd-7c8e-0cf100000000",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-14",
-      "server": "unknown",
-      "server_port": 0,
-      "uuid": "",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-15",
-      "server": "193.29.139.235",
+      "server": "82.38.31.39",
       "server_port": 8080,
       "uuid": "",
       "network": "tcp",
@@ -218,10 +196,32 @@
     },
     {
       "type": "vless",
+      "tag": "proxy-14",
+      "server": "158.69.112.254",
+      "server_port": 443,
+      "uuid": "661f395d-b153-4199-a04b-693f5fe7f261",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-15",
+      "server": "78.135.73.47",
+      "server_port": 443,
+      "uuid": "25e16692-d097-4e69-9e2d-8415609c1968",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
       "tag": "proxy-16",
-      "server": "104.21.12.116",
-      "server_port": 8880,
-      "uuid": "df26029b-bffe-4ce2-9246-25b52ed2b1c7",
+      "server": "192.3.247.109",
+      "server_port": 43579,
+      "uuid": "",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -230,9 +230,9 @@
     {
       "type": "vless",
       "tag": "proxy-17",
-      "server": "www.speedtest.net",
-      "server_port": 443,
-      "uuid": "f6b5a6a3-f3e1-63ca-bb68-bdc400000000",
+      "server": "82.38.31.18",
+      "server_port": 8080,
+      "uuid": "",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -241,9 +241,9 @@
     {
       "type": "vless",
       "tag": "proxy-18",
-      "server": "172.111.146.64",
-      "server_port": 80,
-      "uuid": "904f8ffa-4652-4076-8f2f-e586807840ec",
+      "server": "169.40.42.232",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -252,9 +252,9 @@
     {
       "type": "vless",
       "tag": "proxy-19",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "uuid": "0432902e-6604-40cd-bbd0-57ab4e5d909f",
+      "server": "31.76.97.115",
+      "server_port": 40604,
+      "uuid": "fc56af7f-1221-4c27-aed4-3de8a18dc03b",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -263,9 +263,9 @@
     {
       "type": "vless",
       "tag": "proxy-20",
-      "server": "srv-21bac9.vless.monster",
-      "server_port": 2087,
-      "uuid": "df9f5aca-eda0-428f-a752-e53866153d12",
+      "server": "199.232.237.79",
+      "server_port": 443,
+      "uuid": "eb423e4e-d09c-4e28-b074-e30f090cfcc6",
       "network": "tcp",
       "tls": {
         "enabled": true
