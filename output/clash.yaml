@@ -5,312 +5,298 @@ mode: rule
 proxies:
 - name: VLESS-3
   network: tcp
-  port: 8443
-  server: 193.233.220.203
+  port: 443
+  server: 152.232.57.10
   tls: true
   type: vless
-  uuid: 068c73f5-c2fc-4579-96be-6e37cfcf58ed
-- name: VLESS-4
-  network: tcp
-  port: 33891
-  server: 144.31.101.196
-  tls: true
-  type: vless
-  uuid: 1c794e75-bcd4-4a65-9f69-ed0a10f33d60
-- name: VLESS-7
-  network: tcp
-  port: 23576
-  server: 51.158.206.8
-  tls: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- name: VLESS-8
+  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
+- name: VLESS-5
   network: tcp
   port: 443
-  server: 31.57.190.49
+  server: m1.edgemedia.lol
   tls: true
   type: vless
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: 9ebf4fda-7395-4800-b42f-b2dda649880a
 - name: VLESS-10
   network: tcp
   port: 443
-  server: 185.220.223.25
+  server: 130.12.242.106
   tls: true
   type: vless
-  uuid: 6338c01a-310e-42c3-bf4f-2a20e161054b
+  uuid: bc058e69-0444-4c7b-98da-bd67f0b143da
+- name: VLESS-12
+  network: tcp
+  port: 443
+  server: 78.135.73.47
+  tls: true
+  type: vless
+  uuid: 25e16692-d097-4e69-9e2d-8415609c1968
 - name: VLESS-13
   network: tcp
   port: 443
-  server: 95.111.212.241
+  server: cf-vless-4cf55824.aimall.fr
   tls: true
   type: vless
-  uuid: 924fe46b-b6e0-479e-ae7f-a3661680e706
+  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
 - name: VLESS-15
   network: tcp
-  port: 2083
-  server: sino.bestsellers1.site
+  port: 2040
+  server: 188.245.191.19
   tls: true
   type: vless
-  uuid: 7858128a-6b5e-4f86-9bff-52c1f1e6439d
+  uuid: 663b355b-9fea-473d-9deb-7eb44e97f24a
 - name: VLESS-17
   network: tcp
-  port: 33414
-  server: s490.kukuss.top
+  port: 443
+  server: 141.101.122.147
+  tls: true
+  type: vless
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+- name: VLESS-18
+  network: tcp
+  port: 80
+  server: platform101.golnamakcert.top
+  tls: true
+  type: vless
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+- name: VLESS-19
+  network: tcp
+  port: 2053
+  server: 62.60.159.81
+  tls: true
+  type: vless
+  uuid: fc00adfb-232a-46ce-8b93-0c70e516aa8a
+- name: VLESS-20
+  network: tcp
+  port: 443
+  server: 169.40.42.179
+  tls: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: VLESS-22
+  network: tcp
+  port: 10829
+  server: 192.227.169.125
   tls: true
   type: vless
   uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-- name: VLESS-18
+- name: VLESS-23
   network: tcp
-  port: 443
-  server: 177.1.192.72
+  port: 80
+  server: ov-germany1.09vpn.com
   tls: true
   type: vless
-  uuid: 4d852af3-a121-41aa-9aed-4ca40a6f7b4d
-- name: VLESS-19
+  uuid: 18535741-e8b3-4b43-9348-785b55936751
+- name: VLESS-25
   network: tcp
-  port: 443
-  server: 104.16.111.202
+  port: 2053
+  server: 162.55.242.208
   tls: true
   type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: VLESS-21
+  uuid: 659ffdfa-47d2-47d7-af40-5afe0907eead
+- name: VLESS-27
   network: tcp
   port: 32134
   server: 3696b38bsg.murphyweb.sbs
   tls: true
   type: vless
   uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
-- name: VLESS-25
+- name: VLESS-31
   network: tcp
-  port: 19645
-  server: 3.114.220.22
+  port: 443
+  server: 43.167.232.174
   tls: true
   type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-- name: VLESS-26
+  uuid: 0fd46529-707f-4d33-899b-598f5f4acffa
+- name: VLESS-32
   network: tcp
-  port: 21001
+  port: 10051
+  server: 80.240.18.227
+  tls: true
+  type: vless
+  uuid: d161dcf1-fde2-44cc-b08d-d8944895e842
+- name: VLESS-33
+  network: tcp
+  port: 23576
+  server: 62.210.91.10
+  tls: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: VLESS-37
+  network: tcp
+  port: 57667
+  server: 195.170.172.139
+  tls: true
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+- name: VLESS-38
+  network: tcp
+  port: 443
+  server: 188.114.98.0
+  tls: true
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+- name: VLESS-40
+  network: tcp
+  port: 16006
+  server: 103.172.197.3
+  tls: true
+  type: vless
+  uuid: f8c9d2a1-da40-4f90-b671-11772a0b13d6
+- name: VLESS-41
+  network: tcp
+  port: 443
+  server: nl2.balancer.vbuste-bot.com
+  tls: true
+  type: vless
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+- name: VLESS-47
+  network: tcp
+  port: 443
+  server: 104.16.10.21
+  tls: true
+  type: vless
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+- name: VLESS-51
+  network: tcp
+  port: 31867
+  server: 129.151.64.169
+  tls: true
+  type: vless
+  uuid: 112c9db0-af6f-48b0-a59f-7677bed8e2d7
+- name: VLESS-55
+  network: tcp
+  port: 443
+  server: freede.aiage.work
+  tls: true
+  type: vless
+  uuid: 6338c01a-310e-42c3-bf4f-2a20e161054b
+- name: VLESS-58
+  network: tcp
+  port: 443
+  server: 104.21.3.219
+  tls: true
+  type: vless
+  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+- name: VLESS-62
+  network: tcp
+  port: 443
+  server: xray2-direct-mci1-fs-ce.freesocks.work
+  tls: true
+  type: vless
+  uuid: c2c6ef8b-4172-44df-8a36-e010eae1506d
+- name: VLESS-66
+  network: tcp
+  port: 443
+  server: 31.76.113.51
+  tls: true
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- name: VLESS-68
+  network: tcp
+  port: 443
+  server: 131.143.180.110
+  tls: true
+  type: vless
+  uuid: 0dfaf133-be36-436a-bdad-a7b53ae58b30
+- name: VLESS-72
+  network: tcp
+  port: 443
+  server: 2.27.69.128
+  tls: true
+  type: vless
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+- name: VLESS-74
+  network: tcp
+  port: 16006
+  server: 103.172.197.3
+  tls: true
+  type: vless
+  uuid: f8c9d2a1-da40-4f90-b671-11772a0b13d6
+- name: VLESS-75
+  network: tcp
+  port: 7584
+  server: '[2a14'
+  tls: true
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+- name: VLESS-78
+  network: tcp
+  port: 25239
+  server: 164.37.224.244
+  tls: true
+  type: vless
+  uuid: d54a7512-dda3-4218-8ae7-c591d300fd7c
+- name: VLESS-80
+  network: tcp
+  port: 2112
+  server: 208.84.100.209
+  tls: true
+  type: vless
+  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
+- name: VLESS-81
+  network: tcp
+  port: 443
+  server: s2360.kukuss.top
+  tls: true
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+- name: VLESS-82
+  network: tcp
+  port: 35193
+  server: 156.226.168.221
+  tls: true
+  type: vless
+  uuid: 35cbae61-ee10-4cb9-abb8-4950b35e9851
+- name: VLESS-83
+  network: tcp
+  port: 443
+  server: 151.101.39.60
+  tls: true
+  type: vless
+  uuid: a7cb5ab8-46c1-4d9a-b260-8c2a8c16f49f
+- name: VLESS-87
+  network: tcp
+  port: 14430
+  server: 45.144.234.157
+  tls: true
+  type: vless
+  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+- name: VLESS-89
+  network: tcp
+  port: 8443
+  server: nl5.hap-plus.ru
+  tls: true
+  type: vless
+  uuid: 05d7a479-a099-40cf-aecf-41aa934767b0
+- name: VLESS-90
+  network: tcp
+  port: 21002
   server: 511.150333.xyz
   tls: true
   type: vless
   uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
-- name: VLESS-27
-  network: tcp
-  port: 16006
-  server: 103.172.197.3
-  tls: true
-  type: vless
-  uuid: f8c9d2a1-da40-4f90-b671-11772a0b13d6
-- name: VLESS-31
-  network: tcp
-  port: 80
-  server: sc-thenetherlands2.09vpn.com
-  tls: true
-  type: vless
-  uuid: e73df646-1f62-41bf-8c50-653497d603d0
-- name: VLESS-33
-  network: tcp
-  port: 19825
-  server: 146.235.16.130
-  tls: true
-  type: vless
-  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
-- name: VLESS-34
-  network: tcp
-  port: 8443
-  server: node-uk.connectsuite.org
-  tls: true
-  type: vless
-  uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
-- name: VLESS-36
-  network: tcp
-  port: 443
-  server: 188.114.97.6
-  tls: true
-  type: vless
-  uuid: 20ff936a-8eb5-4d27-9cce-93f2016d467b
-- name: VLESS-37
-  network: tcp
-  port: 14430
-  server: 46.226.166.208
-  tls: true
-  type: vless
-  uuid: af827fd0-6381-426f-bc5e-dcd9a7baeaac
-- name: VLESS-40
-  network: tcp
-  port: 6400
-  server: '[2605'
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-- name: VLESS-43
-  network: tcp
-  port: 443
-  server: 31.70.111.146
-  tls: true
-  type: vless
-  uuid: 84ed0e09-6803-4ef9-a977-74b657d971e5
-- name: VLESS-46
-  network: tcp
-  port: 443
-  server: 212.104.141.233
-  tls: true
-  type: vless
-  uuid: 6338c01a-310e-42c3-bf4f-2a20e161054b
-- name: VLESS-47
-  network: tcp
-  port: 443
-  server: 104.19.164.155
-  tls: true
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: VLESS-50
-  network: tcp
-  port: 29
-  server: '[2a13'
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-- name: VLESS-51
-  network: tcp
-  port: 36925
-  server: 137.184.218.169
-  tls: true
-  type: vless
-  uuid: c9fd0fb1-8251-4106-b09a-f4b426736f67
-- name: VLESS-53
-  network: tcp
-  port: 35108
-  server: 152.228.139.33
-  tls: true
-  type: vless
-  uuid: 81dc0b61-f9fe-4ad6-8b4e-b8c067b73712
-- name: VLESS-54
-  network: tcp
-  port: 16006
-  server: 103.172.197.3
-  tls: true
-  type: vless
-  uuid: f8c9d2a1-da40-4f90-b671-11772a0b13d6
-- name: VLESS-55
-  network: tcp
-  port: 443
-  server: 185.220.223.25
-  tls: true
-  type: vless
-  uuid: 6338c01a-310e-42c3-bf4f-2a20e161054b
-- name: VLESS-57
-  network: tcp
-  port: 80
-  server: platform118.golnamakcert.top
-  tls: true
-  type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-- name: VLESS-58
-  network: tcp
-  port: 14430
-  server: 95.174.68.188
-  tls: true
-  type: vless
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
-- name: VLESS-61
-  network: tcp
-  port: 8080
-  server: 104.21.70.21
-  tls: true
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-- name: VLESS-62
-  network: tcp
-  port: 443
-  server: 31.76.11.243
-  tls: true
-  type: vless
-  uuid: e625f8ef-f935-4c7d-a259-0f154b6842fd
-- name: VLESS-64
-  network: tcp
-  port: 443
-  server: cf.090227.xyz
-  tls: true
-  type: vless
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-- name: VLESS-66
-  network: tcp
-  port: 38339
-  server: 176.120.72.63
-  tls: true
-  type: vless
-  uuid: 481c5606-b586-44d7-bc2e-d8ef30d67f62
-- name: VLESS-68
-  network: tcp
-  port: 23576
-  server: 51.158.206.20
-  tls: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- name: VLESS-70
-  network: tcp
-  port: 80
-  server: platform103.golnamakcert.top
-  tls: true
-  type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-- name: VLESS-79
-  network: tcp
-  port: 2053
-  server: test.keoplentuio.xyz
-  tls: true
-  type: vless
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
-- name: VLESS-84
-  network: tcp
-  port: 443
-  server: jdwacdi.cvewfjg.shop
-  tls: true
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- name: VLESS-90
-  network: tcp
-  port: 5707
-  server: '[2a0f'
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
 - name: VLESS-91
   network: tcp
   port: 443
-  server: 2.24.124.64
+  server: 31.76.35.27
   tls: true
   type: vless
-  uuid: 719b9354-45e2-4718-8709-d965b64554db
-- name: VLESS-94
+  uuid: 4d852af3-a121-41aa-9aed-4ca40a6f7b4d
+- name: VLESS-95
   network: tcp
   port: 443
-  server: 152.53.127.214
+  server: 45.59.120.217
   tls: true
   type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- name: VLESS-96
-  network: tcp
-  port: 23576
-  server: 15.204.97.195
-  tls: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- name: VLESS-99
+  uuid: 8732f92b-ba85-48f7-92e4-ad029f1cd4e7
+- name: VLESS-98
   network: tcp
   port: 443
-  server: 188.114.98.0
+  server: 195.123.235.183
   tls: true
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-- name: VLESS-100
-  network: tcp
-  port: 443
-  server: 188.114.98.0
-  tls: true
-  type: vless
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: c14ec728-3eca-4750-87fc-fd1e6aeb81d5
 proxy-groups:
 - name: PROXY
   proxies:
